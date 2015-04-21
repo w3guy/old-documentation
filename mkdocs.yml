@@ -4,5 +4,7 @@ site_favicon: favicon.ico
 theme: 'readthedocs'
 pages:
 - ['index.md', 'ProfilePress Plugin Documentation']
-- ['installation.md', 'Installation']
-- ['quickstart.md', 'Quick Start']
+- ['installation.md', 'Get Started', 'Installation']
+- ['quickstart.md', 'Get Started', 'Quick Start']
+- ['shortcode-help.md', 'Shortcodes Doc']
+- ['forms/login-form.md', 'Building Account Forms', 'Login Forms']
