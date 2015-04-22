@@ -1,5 +1,5 @@
 site_name: ProfilePress WordPress Plugin
-site_description: ProfilePress plugin documentation - The ultimate plugin for creating user account forms such as login, registration, password reset, front-end edit profile forms as well as front-end user profile for WordPress
+site_description: Documentation for ProfilePress plugin - The ultimate plugin for creating user account forms such as login, registration, password reset, front-end edit profile forms as well as front-end user profile for WordPress
 site_favicon: favicon.ico
 theme: 'readthedocs'
 pages:
@@ -7,6 +7,8 @@ pages:
 - ['installation.md', 'Get Started', 'Installation']
 - ['quickstart.md', 'Get Started', 'Quick Start']
 - ['shortcode-help.md', 'Shortcodes Doc']
-- ['forms/login-form.md', 'Building Account Forms', 'Login Forms']
-- ['forms/registration-form.md', 'Building Account Forms', 'Registration Forms']
+- ['forms/login-form.md', 'Building with ProfilePress', 'Login Form']
+- ['forms/registration-form.md', 'Building with ProfilePress', 'Registration Form']
+- ['forms/password-reset.md', 'Building with ProfilePress', 'Password Reset Form']
+- ['forms/edit-profile.md', 'Building with ProfilePress', 'Edit Profile Form']
 - ['advanced/custom-fields.md', 'Advanced', 'Custom Fields']
