@@ -18,4 +18,4 @@ The sidebar to the left will help you navigate your way around the documentation
 
 ## Getting help
 
-If you have any question or contribution, do not hesitate to use the [contact form](http://profilepress.net/get-in-touch/) or shoot us a mail via `support[at]profilepress.net`.
+If you have any question or contribution, do not hesitate to use the [contact form](http://profilepress.net/get-in-touch/) or shoot us a mail via **support[at]profilepress.net**.
