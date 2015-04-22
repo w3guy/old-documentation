@@ -44,7 +44,7 @@ Click the **Preview Design** button to see how the login form will look.
 For ProfilePress to make this a functional WordPress login form, the form components which in this case are the username, password text field and the submit button will have to be replaced by its ProfilePress [shortcode equivalent](http://profilepress.net/docs/shortcode-api/login-form/)
 
 
-Below is the final revision of the Login form code for it to work.
+Below is the final revision of the Login form code.
 
 ```
 <div id="sc-login">
@@ -61,7 +61,7 @@ Below is the final revision of the Login form code for it to work.
 Replace the HTML we earlier entered into the **Login Design** with the code above.
 
 
-If we want to make this login form available as a [WordPress widget](http://codex.wordpress.org/WordPress_Widgets" target="_blank">WordPress widget) that can be drag and drop into a widgetized area / sidebar, check the **Make this a Widget** check box.
+To make the login form available as a [WordPress widget](http://codex.wordpress.org/WordPress_Widgets" target="_blank">WordPress widget) that can be drag and drop into a widgetized area / sidebar, check the **Make this a Widget** check box.
 
 
 ![Creating WordPress login Widget](http://profilepress.net/wp-content/uploads/2015/01/create-login-form-widget.png)
