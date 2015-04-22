@@ -16,14 +16,19 @@ The documentation will slide in and occupy a section of the screen.
 Clicking on the same button will conversely slideout / hide the documentation.
 
 
+ProfilePress also include an an interactive and intuitive form builder for creating its various shortcodes.
 
-Also, clicking the `ProfilePress shortcodes` button immediately above the page design textarea reveals an interactive and intuitive form builder for creating the various ProfilePress shortcodes.
+
+Clicking the `ProfilePress shortcodes` button located above the `page design` textarea reveals a list of the shortcodes.
 
 
 ![Shortcodes form builder button](img/tinymce-button.png)
 
 
 ![Shortcodes form builder button](img/shortcakes.png)
+
+
+Clicking on any of the shortcode reveals a form for populating the attributes of the selected shortcode.
 
 
 ![Shortcodes form builder](img/shortcake-form.png)

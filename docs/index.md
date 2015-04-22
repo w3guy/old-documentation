@@ -12,17 +12,10 @@ The sidebar to the left will help you navigate your way around the documentation
 ## System Requirements
 
 * PHP 5.3+
-
 * MySQL 5+
-
 * WordPress 3.9+
 
 
 ## Getting help
 
 If you have any question or contribution, do not hesitate to use the [contact form](http://profilepress.net/get-in-touch/) or shoot us a mail via `support[at]profilepress.net`.
-
-
-## Table of Contents
-
-[TOC]

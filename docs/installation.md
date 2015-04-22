@@ -12,7 +12,7 @@ Follow the step below to get ProfilePress installed in your WordPress powered si
 
 * Choose the plugin zip file and click `Install Now`.  
 
-![Install WordPress plugin by Upload](img\upload-install-plugin.png)
+![Install WordPress plugin by Upload](img/upload-install-plugin.png)
 
 * Once installed, click `Activate`.
 

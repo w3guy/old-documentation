@@ -9,12 +9,12 @@ To get ProfilePress up-and-running; click the `License` plugin menu, enter your 
 
 After saving the license key, click the `Activate License` button.
 
-![Enter license key](img\activate-license.png)
+![Enter license key](img/activate-license.png)
 
 
 If license is valid, you will see a notice to that effect.
 
-![Enter license key](img\active-license.png)
+![Enter license key](img/active-license.png)
 
 
 Mind you; on activation, ProfilePress will create five pages that will serve as the login, registration, password reset, edit profile and front-end profile page of your WordPress site with the pages containing their respective shortcodes.

@@ -8,3 +8,5 @@ pages:
 - ['quickstart.md', 'Get Started', 'Quick Start']
 - ['shortcode-help.md', 'Shortcodes Doc']
 - ['forms/login-form.md', 'Building Account Forms', 'Login Forms']
+- ['forms/registration-form.md', 'Building Account Forms', 'Registration Forms']
+- ['advanced/custom-fields.md', 'Advanced', 'Custom Fields']
