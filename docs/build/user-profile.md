@@ -81,7 +81,8 @@ Copy its shortcode, paste it to a WordPress page and publish.
 Preview the page to see the profile card.
 
 
-A [live demo](http://profilepress.net/demos/memories-profile-theme/) of this password reset form is available [here](http://profilepress.net/demos/memories-profile-theme/).
+A [live demo](http://profilepress.net/demos/memories-profile-theme/) is available [here](http://profilepress.net/demos/memories-profile-theme/).
 
 
 **Note:** You'll have to log in to see it. Use `demo` as the username and password.
+After logging in, click this [link](http://profilepress.net/demos/memories-profile-theme/) again.
