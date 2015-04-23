@@ -11,4 +11,5 @@ pages:
 - ['build/registration-form.md', 'Building with ProfilePress', 'Registration Form']
 - ['build/password-reset.md', 'Building with ProfilePress', 'Password Reset Form']
 - ['build/edit-profile.md', 'Building with ProfilePress', 'Edit Profile Form']
+- ['build/user-profile.md', 'Building with ProfilePress', 'Front-end Profile']
 - ['advanced/custom-fields.md', 'Advanced', 'Custom Fields']
