@@ -33,7 +33,7 @@ Click the **Preview Design** button to see how the form will look.
 ![Memories registration form](img/edprofile-preview.png)
 
 
-In order for **ProfilePress** to make this a form functional, the form components will have to be replaced by their ProfilePress [shortcode equivalents](http://profilepress.net/docs/shortcode-api/registration-form/)
+In order for **ProfilePress** to make this a form functional, the form components will have to be replaced by their ProfilePress [shortcode equivalents](http://profilepress.net/docs/shortcode-api/edit-profile-form/)
 
 
 Below is the final revision of the form code.

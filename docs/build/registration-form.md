@@ -5,10 +5,6 @@ Let's see how [ProfilePress](profilepress.net/pricing/) can turn the registratio
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script><br/>
 
 
-
-The procedure for creating a custom WordPress registration form with ProfilePress is pretty much the same as the that of the [login form](login-form.md).
-
-
 Click the **Registration Form** menu.
 
 

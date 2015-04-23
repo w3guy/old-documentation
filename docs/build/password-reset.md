@@ -34,7 +34,7 @@ Click the **Preview Design** button to see how the form will look.
 
 
 
-In order for **ProfilePress** to make this a functional password reset form, the form components which in this case are the username / email text field and the submit button will have to be replaced by their ProfilePress [shortcode equivalents](http://profilepress.net/docs/shortcode-api/registration-form/)
+In order for **ProfilePress** to make this a functional password reset form, the form components which in this case are the username / email text field and the submit button will have to be replaced by their ProfilePress [shortcode equivalents](http://profilepress.net/docs/shortcode-api/password-reset-form/)
 
 
 Below is the final revision of the Login form code.
