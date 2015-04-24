@@ -85,4 +85,6 @@ A [live demo](http://profilepress.net/demos/memories-profile-theme/) is availabl
 
 
 **Note:** You'll have to log in to see it. Use `demo` as the username and password.
+
+
 After logging in, click this [link](http://profilepress.net/demos/memories-profile-theme/) again.
