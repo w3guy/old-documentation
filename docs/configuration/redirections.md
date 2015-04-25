@@ -18,7 +18,7 @@ To alter these pages settings, click the **Settings** ProfilePress menu and go t
 Let's see how to redirect users to a custom WordPress page after they log in and log out of your website.
 
 
-### User Redirections
+## User Redirections
 
 To redirect users to a custom page after they log in and log out, select the pages in `Redirection` section and save.
 

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Password Reset Form - ProfilePress WordPress Plugin</title>
+  <title>Registration Sugars - ProfilePress WordPress Plugin</title>
   
 
   <link rel="shortcut icon" href="../../favicon.ico">
@@ -78,36 +78,32 @@
             <span>Building</span>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../login-form/">Login Form</a>
+                    <a class="" href="../../build/login-form/">Login Form</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../registration-form/">Registration Form</a>
-                    
-                </li>
-            
-                <li class="toctree-l2 current">
-                    <a class="current" href="./">Password Reset Form</a>
-                    
-                        <ul>
-                        
-                        </ul>
+                    <a class="" href="../../build/registration-form/">Registration Form</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../edit-profile/">Edit Profile Form</a>
+                    <a class="" href="../../build/password-reset/">Password Reset Form</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../user-profile/">Front-end Profile</a>
+                    <a class="" href="../../build/edit-profile/">Edit Profile Form</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../shortcodes/">Shortcode List</a>
+                    <a class="" href="../../build/user-profile/">Front-end Profile</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
+                    <a class="" href="../../build/shortcodes/">Shortcode List</a>
                     
                 </li>
             
@@ -118,22 +114,32 @@
             <span>Configuration</span>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../../configuration/redirections/">Redirections</a>
+                    <a class="" href="../redirections/">Redirections</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 current">
+                    <a class="current" href="./">Registration Sugars</a>
+                    
+                        <ul>
+                        
+                            <li class="toctree-l3"><a href="#automagic-login">Automagic Login</a></li>
+                            
+                        
+                            <li class="toctree-l3"><a href="#welcome-message">Welcome Message</a></li>
+                            
+                        
+                        </ul>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../../configuration/registration/">Registration Sugars</a>
+                    <a class="" href="../password-reset/">Password Reset</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../../configuration/password-reset/">Password Reset</a>
-                    
-                </li>
-            
-                <li class="toctree-l2 ">
-                    <a class="" href="../../configuration/social-login/">Social Login</a>
+                    <a class="" href="../social-login/">Social Login</a>
                     
                 </li>
             
@@ -184,10 +190,10 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
-        <li>Building &raquo;</li>
+        <li>Configuration &raquo;</li>
       
     
-    <li>Password Reset Form</li>
+    <li>Registration Sugars</li>
       <li class="wy-breadcrumbs-aside">
         
       </li>
@@ -196,52 +202,40 @@
 </div>
           <div role="main">
             <div class="section">
-              <p>Let's see how <a href="../profilepress.net/pricing/">ProfilePress</a> can turn the password-reset form below into a working WordPress form for resetting users passwords.</p>
-<p data-height="268" data-theme-id="14095" data-slug-hash="rVNWEm" data-default-tab="result" data-user="collizo4sky" class='codepen'>See the Pen <a href='http://codepen.io/collizo4sky/pen/rVNWEm/'>Memories Password Reset Form</a> by Agbonghama Collins (<a href='http://codepen.io/collizo4sky'>@collizo4sky</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
-<p><br/></p>
-<p>Click the <strong>Password Reset</strong> menu.</p>
-<p>Click the <code>Add New</code> button.</p>
-<p>Enter a name for the password-reset form in <strong>Template Name</strong> field.  </p>
-<p>The HTML and CSS code for the password-reset form will go into the <strong>Password Reset Design</strong> and <strong>CSS Stylesheet</strong> textareas respectively.</p>
-<p><img alt="Memories password reset form" src="../img/memo-design.png" /></p>
-<p><img alt="CSS for Memories password reset form" src="../img/memo-reset-css.png" /></p>
-<p><strong>Note:</strong> Error messages generated by password reset forms powered by ProfilePress are wrapped in a <code>div</code> with class <code>&lt;div class="profilepress-reg-status"&gt;</code> thus the <code>.profilepress-reg-status</code> CSS class in the stylesheet.</p>
-<p>Click the <strong>Preview Design</strong> button to see how the form will look.</p>
-<p><img alt="Memories registration form" src="../img/memo-reset-preview.png" /></p>
-<p>In order for <strong>ProfilePress</strong> to make this a functional password reset form, the form components which in this case are the username / email text field and the submit button will have to be replaced by their ProfilePress <a href="http://profilepress.net/docs/shortcode-api/password-reset-form/">shortcode equivalents</a></p>
-<p>Below is the final revision of the Login form code.</p>
-<pre><code>&lt;div id=&quot;sc-password&quot;&gt;
-  &lt;h1&gt;Reset Password&lt;/h1&gt;
-  &lt;div class=&quot;sc-container&quot;&gt;
-    [user-login title=&quot;Username or Email&quot; placeholder=&quot;Username or Email&quot;]
-    [reset-submit value=&quot;Get New Password&quot;]
-  &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
-
-<p>Replace the HTML form code earlier entered into the <strong>Password Reset Design</strong> textarea with the revised code above.</p>
-<p>Enter the notification text that will be displayed (after the reset request has been received for processing by WordPress internals) into the <strong>Message on successful registration</strong> field.</p>
-<p><img alt="Message on successful registration" src="../img/reset-success.png" /></p>
-<p>To make the password reset form available as a WordPress widget, tick the <strong>Make this a Widget</strong> check box.</p>
-<p><img alt="Creating WordPress login Widget" src="../img/reset-widget.png" /></p>
-<p>Save and then click the <code>Back to Catalog</code> button.</p>
-<p>Copy its shortcode, paste it to a WordPress page and publish.</p>
-<p><img alt="Registration form catalog" src="../img/password-reset-catalog.png" /></p>
-<p>Preview the page and you will see the registration form in action.</p>
-<p>A <a href="http://profilepress.net/demos/memories-password-reset/">live demo</a> of this password reset form is available <a href="http://profilepress.net/demos/memories-password-reset/">here</a>.</p>
+              <p>After building a <a href="../../build/registration-form/">custom registration page</a> and making it <a href="../redirections/">WordPress default</a>, ProfilePress provides the following features to enhance the user registration experience.</p>
+<ul>
+<li>Automagic user login after registration</li>
+<li>Send users a welcome message after registration</li>
+</ul>
+<h2 id="automagic-login">Automagic Login</h2>
+<p>To automatically log in users immediately they successfully registered an account, follow the steps below.</p>
+<ul>
+<li>Click the ProfilePress <strong>Settings</strong> menu.</li>
+<li>Under <strong>Registration Settings</strong>, check the <code>Enable auto-login</code> checkbox</li>
+</ul>
+<p><img alt="Registration Settings" src="../img/registration-settings.png" /></p>
+<h2 id="welcome-message">Welcome Message</h2>
+<p>Still on the <strong>Registration Settings</strong>, check the <code>Enable welcome message</code> check box to activate the welcome message module and configure the welcome message at <strong>Welcome Message Settings</strong></p>
+<p><img alt="Registration Settings" src="../img/wlcm-msg-settings.png" /></p>
+<p>You can also use the following placeholders in the message.</p>
+<ul>
+<li><strong>{{username}}</strong> - Username of the registered user.</li>
+<li><strong>{{password}}</strong> - Password of the registered user.</li>
+<li><strong>{{site_title}}</strong> - Site title as defined in General Settings</li>
+<li><strong>{{first_name}}</strong> - First Name entered by user on registration.</li>
+<li><strong>{{last_name}}</strong> - Last Name entered by user on registration.</li>
+</ul>
+<p><strong>Note:</strong> The purpose of the <code>content-Type</code> field is to describe the data contained in the message body (could be HTML or plain text) so that the email client can accurately parse the content.</p>
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../edit-profile/" class="btn btn-neutral float-right" title="Edit Profile Form"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../password-reset/" class="btn btn-neutral float-right" title="Password Reset"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../registration-form/" class="btn btn-neutral" title="Registration Form"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../redirections/" class="btn btn-neutral" title="Redirections"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -281,14 +275,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../registration-form/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="../edit-profile/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../redirections/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="../password-reset/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-04-25 22:04:23.488536
+Docs Build Date : 2015-04-25 22:04:23.600539
 -->
 </body>
 </html>

@@ -16,4 +16,4 @@ Follow the step below to get ProfilePress installed in your WordPress powered si
 
 * Once installed, click `Activate`.
 
-* That's pretty much it.
+* That's it.

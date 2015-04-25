@@ -13,7 +13,7 @@ Recently, the Google security team announced a new version called [No CAPTCHA re
 To protect login, registration, password reset and edit profile forms created by [ProfilePress](http://profilepress.net/pricing/) against spam and abuse using the new `No CAPTCHA reCAPTCHA`, see the guide below.
 
 
-### Setting up reCAPTCHA
+## Setting up reCAPTCHA
 
 Firstly, you need to grab a reCAPTCHA site and secret key for your website domain. [Get them here](https://www.google.com/recaptcha/admin).
 
@@ -27,7 +27,7 @@ Check the **Activate reCAPTCHA** checkbox, enter your domain site and secret key
 ![ProfilePress reCAPTCHA settings](img/profilepress-recaptcha-settings.png)
 
 
-### Display the CAPTCHA in ProfilePress forms
+## Display the CAPTCHA in ProfilePress forms
 
 Add the shortcode `[pp-recaptcha]` to to wherever you want the CAPTCHA to be displayed in the ProfilePress created (login, registration, password reset & edit profile) forms. Preferably before the submit button.
 
