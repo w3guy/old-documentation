@@ -1,5 +1,3 @@
-# Welcome to ProfilePress Plugin documentation!
-
 **[ProfilePress](http://profilepress.net/)** is a WordPress plugin that makes building user account forms (such as login, registration, password reset, front-end edit user profile forms) and front-end user profile for WordPress ***stupidly simple***.
 
 

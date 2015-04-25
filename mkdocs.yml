@@ -3,14 +3,17 @@ site_description: Documentation for ProfilePress plugin - The ultimate plugin fo
 site_favicon: favicon.ico
 theme_dir: 'readthedocs'
 pages:
-- ['index.md', 'ProfilePress Plugin Documentation']
+- ['index.md', 'Index']
 - ['installation.md', 'Get Started', 'Installation']
 - ['quickstart.md', 'Get Started', 'Quick Start']
-- ['shortcode-help.md', 'Shortcodes Doc']
-- ['shortcodes.md', 'Shortcode List']
+- ['shortcode-doc.md', 'Get Started', 'Shortcodes Doc']
 - ['build/login-form.md', 'Building with ProfilePress', 'Login Form']
 - ['build/registration-form.md', 'Building with ProfilePress', 'Registration Form']
 - ['build/password-reset.md', 'Building with ProfilePress', 'Password Reset Form']
 - ['build/edit-profile.md', 'Building with ProfilePress', 'Edit Profile Form']
 - ['build/user-profile.md', 'Building with ProfilePress', 'Front-end Profile']
+- ['build/shortcodes.md', 'Building with ProfilePress', 'Shortcode List']
+- ['configuration/user-registration.md', 'configuration', 'User registration']
+- ['configuration/redirections.md', 'configuration', 'Redirections']
 - ['advanced/custom-fields.md', 'Advanced', 'Custom Fields']
+- ['extras/recaptcha.md', 'Extras', 'reCAPTCHA']
