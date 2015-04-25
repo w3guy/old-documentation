@@ -92,9 +92,9 @@ Below are the form fields and their description.
 * **Type:** The form element to use as the form field. For now, only text field (`<input type="text">`), textarea, select dropdown and radio button are supported.
 
 
-* **Options:** Only for use when multiple Choices i.e Select Box and Radio Buttons is chosen as the field type.
+* **Options:** Only for use when multiple Choices i.e Select Box and Radio Buttons is chosen as the field type.  
 Say you want to add a radio button with options "yes" and "no"; choose Radio Buttons in `Type` and add the radio button options to the Options field separated
-by a comma ( i.e. yes, no ).
+by a comma ( i.e. yes, no ).  
 Same goes for the select and check box.
 
 
@@ -109,7 +109,7 @@ With that cleared, let's see how custom fields can be added to login, registrati
 
 ### Registration Forms
 
-To add a custom profile field to a registration form created by ProfilePress, the services of `[reg-cpf]` shortcode is employed.
+To add a custom profile field to a [registration form](../build/registration-form.md) created by ProfilePress, the services of `[reg-cpf]` shortcode is employed.
 
 
 The two important attribute for this shortcode are the field `key` and `type`.
@@ -128,3 +128,21 @@ Using the reddit contact info. we created earlier; to add a form field to a Prof
 ### Edit-profile Forms
 
 To add a custom profile field to an **edit profile form** created by ProfilePress, the services of `[edit-profile-cpf]` shortcode is employed.
+
+
+Say add form field where users can edit their reddit profile URL is to be added to an [edit profile form](../build/edit-profile.md), the shortcode below is basically wwhat is needed.
+
+
+```
+[edit-profile-cpf key="reddit" type="text"]
+```
+
+
+### Front-end User Profile
+
+To display the value or data of the reddit profile field (saved by users either during registration or editing their profile) in a [front-end user profile](../build/user-profile.md), use the `[profile-cpf]` shortcode like so:
+
+
+```
+[profile-cpf key="reddit"]
+```
