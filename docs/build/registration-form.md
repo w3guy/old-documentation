@@ -57,7 +57,7 @@ Below is the final revision of the Login form code.
 ```
 
 
-The shortcode for the form fields are pretty easy to understand except for that of the `Twitter Profile URL` and `Gender` (which are [custom profile fields](../advanced/custom-fields.md)).
+The shortcode for the form fields are pretty easy to understand except for that of the `Twitter Profile URL` and `Gender` (which are [custom profile fields](../configuration/custom-fields.md)).
 
 
 The `[reg-cpf]` shortcode is used for adding custom fields to ProfilePress powered registration form.
@@ -65,7 +65,7 @@ The `[reg-cpf]` shortcode is used for adding custom fields to ProfilePress power
 <div class="hljs">
 <p>Custom fields are fields added to WordPress to extend its profile fields.</p>
 <p>By default, WordPress doesn't include the `Gender` and `Twitter profile` fields.
-<a href="advanced/custom-fields/">These fields and few other</a> are automatically added to WordPress when ProfilePress plugin is installed and activated.</p>
+<a href="configuration/custom-fields/">These fields and few other</a> are automatically added to WordPress when ProfilePress plugin is installed and activated.</p>
 </div><br/>
 
 

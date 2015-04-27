@@ -1,7 +1,4 @@
-To completely remove all ProfilePress data when uninstalling the plugin, ensure **Remove Data on Uninstall** check boxin ProfilePress `settings` page is checked and saved.
-
-
-This option can be found in ProfilePress `settings` page.
+To completely remove all ProfilePress data when you decides to uninstall it, ensure before-hand that **Remove Data on Uninstall** check box in ProfilePress `settings` page is checked and saved.
 
 
 ![Remove plugin data during uninstallation](img/uninstall-plugin.png)

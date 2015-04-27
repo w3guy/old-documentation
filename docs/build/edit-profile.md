@@ -60,10 +60,10 @@ Below is the final revision of the form code.
 </div>
 ```
 
-The shortcode for the form fields are pretty easy to understand except for Gender, Facebook Profile URL, Twitter Profile URL, Google+ Profile URL and LinkedIn Profile URL which are custom created [profile fields](../advanced/custom-fields.md).
+The shortcode for the form fields are pretty easy to understand except for Gender, Facebook Profile URL, Twitter Profile URL, Google+ Profile URL and LinkedIn Profile URL which are custom created [profile fields](../configuration/custom-fields.md).
 
 
-**Note:** The [[edit-profile-cpf]](../advanced/custom-fields.md) shortcode is used for adding custom profile fields to edit profile forms.
+**Note:** The [[edit-profile-cpf]](../configuration/custom-fields.md) shortcode is used for adding custom profile fields to edit profile forms.
 
 
 Replace the HTML form code we earlier entered into the **Page Design** textarea with the revised code above.
