@@ -23,7 +23,17 @@ Although this feature works in any existing login form in your site, be it WordP
 To set up the passwordless one-time login feature, follow the instructions below.
 
 
-* click the **Extras** ProfilePress menu
-* In **One-time Passwordless Login Configuration** page section, activate the feature.
+Click the **Extras** ProfilePress menu
+
+
+In **One-time Passwordless Login Configuration** page section, activate the feature.
+
 ![Activate one-time passwordless login feature in ProfilePress](img/activate-passwordless.png)
-*
+
+
+There is also the options to customize the following:
+* sender name and email address.
+* Mail subject.
+* Mail content.
+* The expiration time in minutes the one-time URL will BE valid.
+* Generated error and success messages.
