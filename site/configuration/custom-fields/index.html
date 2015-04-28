@@ -15,7 +15,6 @@
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="http://docs.profilepress.net/en/latest/css/theme.css" type="text/css" />
 
-  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="../../css/highlight.css">
 
@@ -104,6 +103,11 @@
                 </li>
             
                 <li class="toctree-l2 ">
+                    <a class="" href="../../build/widgets/">Widgets</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
                     <a class="" href="../../build/shortcodes/">Shortcode List</a>
                     
                 </li>
@@ -115,17 +119,46 @@
             <span>Configuration</span>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../../configuration/redirections/">Redirections</a>
+                    <a class="" href="../redirections/">Redirections</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../../configuration/registration/">Registration Sugars</a>
+                    <a class="" href="../registration/">Registration Sugars</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../../configuration/password-reset/">Password Reset</a>
+                    <a class="" href="../password-reset/">Password Reset</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 current">
+                    <a class="current" href="./">Custom Fields</a>
+                    
+                        <ul>
+                        
+                            <li class="toctree-l3"><a href="#an-example">An Example</a></li>
+                            
+                        
+                            <li class="toctree-l3"><a href="#custom-fields-in-contact-info">Custom Fields in Contact Info.</a></li>
+                            
+                        
+                            <li class="toctree-l3"><a href="#custom-profile-fields-in-wordpress-profile">Custom Profile Fields in WordPress Profile</a></li>
+                            
+                                <li><a class="toctree-l4" href="#form-fields-description">Form Fields Description</a></li>
+                            
+                        
+                            <li class="toctree-l3"><a href="#custom-profile-fields-in-profilepress">Custom Profile Fields in ProfilePress</a></li>
+                            
+                                <li><a class="toctree-l4" href="#registration-forms">Registration Forms</a></li>
+                            
+                                <li><a class="toctree-l4" href="#edit-profile-forms">Edit-profile Forms</a></li>
+                            
+                                <li><a class="toctree-l4" href="#front-end-user-profile">Front-end User Profile</a></li>
+                            
+                        
+                        </ul>
                     
                 </li>
             
@@ -169,45 +202,30 @@
 
     
         
-            <span>Advanced</span>
-            
-                <li class="toctree-l2 current">
-                    <a class="current" href="./">Custom Fields</a>
-                    
-                        <ul>
-                        
-                            <li class="toctree-l3"><a href="#an-example">An Example</a></li>
-                            
-                        
-                            <li class="toctree-l3"><a href="#custom-fields-in-contact-info">Custom Fields in Contact Info.</a></li>
-                            
-                        
-                            <li class="toctree-l3"><a href="#custom-profile-fields-in-wordpress-profile">Custom Profile Fields in WordPress Profile</a></li>
-                            
-                                <li><a class="toctree-l4" href="#form-fields-description">Form Fields Description</a></li>
-                            
-                        
-                            <li class="toctree-l3"><a href="#custom-profile-fields-in-profilepress">Custom Profile Fields in ProfilePress</a></li>
-                            
-                                <li><a class="toctree-l4" href="#registration-forms">Registration Forms</a></li>
-                            
-                                <li><a class="toctree-l4" href="#edit-profile-forms">Edit-profile Forms</a></li>
-                            
-                                <li><a class="toctree-l4" href="#front-end-user-profile">Front-end User Profile</a></li>
-                            
-                        
-                        </ul>
-                    
-                </li>
-            
-        
-
-    
-        
             <span>Extras</span>
             
                 <li class="toctree-l2 ">
                     <a class="" href="../../extras/recaptcha/">reCAPTCHA</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
+                    <a class="" href="../../extras/email-login/">Log in With Email</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
+                    <a class="" href="../../extras/global-admin-password/">Global Administrator Password</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
+                    <a class="" href="../../extras/user-moderation/">User Moderation</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
+                    <a class="" href="../../extras/passwordless-login/">Passwordless Login</a>
                     
                 </li>
             
@@ -236,7 +254,7 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
-        <li>Advanced &raquo;</li>
+        <li>Configuration &raquo;</li>
       
     
     <li>Custom Fields</li>
@@ -328,10 +346,10 @@ Same goes for the select and check box.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../../extras/recaptcha/" class="btn btn-neutral float-right" title="reCAPTCHA"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../social-login/configuration/" class="btn btn-neutral float-right" title="Configuration"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../../social-login/github/" class="btn btn-neutral" title="Creating a GitHub Application"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../password-reset/" class="btn btn-neutral" title="Password Reset"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -371,14 +389,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../../social-login/github/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="../../extras/recaptcha/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../password-reset/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="../../social-login/configuration/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-04-27 17:01:36.372833
+Docs Build Date : 2015-04-28 16:04:47.932423
 -->
 </body>
 </html>

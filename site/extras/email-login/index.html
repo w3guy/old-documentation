@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Creating a Facebook Application - ProfilePress WordPress Plugin</title>
+  <title>Log in With Email - ProfilePress WordPress Plugin</title>
   
 
   <link rel="shortcut icon" href="../../favicon.ico">
@@ -145,36 +145,32 @@
             <span>Social Login</span>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../configuration/">Configuration</a>
-                    
-                </li>
-            
-                <li class="toctree-l2 current">
-                    <a class="current" href="./">Creating a Facebook Application</a>
-                    
-                        <ul>
-                        
-                        </ul>
+                    <a class="" href="../../social-login/configuration/">Configuration</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../twitter/">Creating a Twitter Application</a>
+                    <a class="" href="../../social-login/facebook/">Creating a Facebook Application</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../linkedin/">Creating a LinkedIn Application</a>
+                    <a class="" href="../../social-login/twitter/">Creating a Twitter Application</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../google/">Creating a Google+ Application</a>
+                    <a class="" href="../../social-login/linkedin/">Creating a LinkedIn Application</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../github/">Creating a GitHub Application</a>
+                    <a class="" href="../../social-login/google/">Creating a Google+ Application</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
+                    <a class="" href="../../social-login/github/">Creating a GitHub Application</a>
                     
                 </li>
             
@@ -185,27 +181,31 @@
             <span>Extras</span>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../../extras/recaptcha/">reCAPTCHA</a>
+                    <a class="" href="../recaptcha/">reCAPTCHA</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 current">
+                    <a class="current" href="./">Log in With Email</a>
+                    
+                        <ul>
+                        
+                        </ul>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../../extras/email-login/">Log in With Email</a>
+                    <a class="" href="../global-admin-password/">Global Administrator Password</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../../extras/global-admin-password/">Global Administrator Password</a>
+                    <a class="" href="../user-moderation/">User Moderation</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../../extras/user-moderation/">User Moderation</a>
-                    
-                </li>
-            
-                <li class="toctree-l2 ">
-                    <a class="" href="../../extras/passwordless-login/">Passwordless Login</a>
+                    <a class="" href="../passwordless-login/">Passwordless Login</a>
                     
                 </li>
             
@@ -234,10 +234,10 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
-        <li>Social Login &raquo;</li>
+        <li>Extras &raquo;</li>
       
     
-    <li>Creating a Facebook Application</li>
+    <li>Log in With Email</li>
       <li class="wy-breadcrumbs-aside">
         
       </li>
@@ -246,34 +246,21 @@
 </div>
           <div role="main">
             <div class="section">
-              <p>Visit <a href="https://developers.facebook.com">https://developers.facebook.com</a> and click the <code>Add New App</code> menu link.</p>
-<p><img alt="Facebook developer page" src="../img/fb-developer-page.png" /></p>
-<p>On the pop-up page, click the <code>advance setup</code> link.</p>
-<p><img alt="Create new Facebook Application" src="../img/fb-add-new-app.png" /></p>
-<p>Enter a name for your new app, choose an App Category and click on <code>Create App ID</code> button.</p>
-<p><img alt="Facebook Application details" src="../img/fb-app-details.png" /></p>
-<p>Perform the security check and submit</p>
-<p><img alt="Facebook security check" src="../img/fb-security-check.png" /></p>
-<p>Now you have successfully created a Facebook Application and you should be redirected to the Application page which should look like the one on the image below.</p>
-<p><img alt="Facebook application dashboard" src="../img/fb-app-dashboard.png" /></p>
-<p>Currently, your application is in development or sandbox mode.</p>
-<p>To get the App Live, click on <strong>Status &amp; Review</strong> sidebar menu, slide the switch close to the app name to <code>Yes</code> and finally, click the <code>Confirm</code> button.</p>
-<p><img alt="Change Facebook application status to live" src="../img/fb-app-live.png" /></p>
-<p>Go back to the application settings, click the <code>Add Platform</code> button.</p>
-<p><img alt="Add platform to application" src="../img/add-platform.png" /></p>
-<p>Select <strong>Website</strong> and enter your website URL in the corresponding form and save.</p>
-<p><img alt="Facebook appplication website platform" src="../img/fb-website-platform.png" /></p>
-<p>Copy and save the <code>App ID</code> and <code>App Secrete</code> to the appropriate fields in ProfilePress <a href="../configuration/">Social Login</a> settings page.</p>
+              <p>By default, one can only log in to WordPress using their username and password. This can be a pain in the butt to users of your website if they forget their username and thus, they are left with no option but to do a password reset for them to get their username.</p>
+<p>ProfilePress include a <code>log in with email</code> feature which allows users to log in to your WordPress powered site with their email address instead of a username together with a password.</p>
+<p>To activate this feature, click the <strong>Extras</strong> ProfilePress menu and activate it in <strong>Login with Email</strong> section.</p>
+<p><img alt="ProfilePress tab widget demo" src="../img/login-with-email.png" /></p>
+<p>Do not forget to click <code>Save Changes</code> button.</p>
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../twitter/" class="btn btn-neutral float-right" title="Creating a Twitter Application"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../global-admin-password/" class="btn btn-neutral float-right" title="Global Administrator Password"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../configuration/" class="btn btn-neutral" title="Configuration"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../recaptcha/" class="btn btn-neutral" title="reCAPTCHA"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -313,14 +300,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../configuration/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="../twitter/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../recaptcha/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="../global-admin-password/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-04-28 16:04:48.005470
+Docs Build Date : 2015-04-28 16:04:48.373716
 -->
 </body>
 </html>

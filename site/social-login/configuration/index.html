@@ -15,7 +15,6 @@
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="http://docs.profilepress.net/en/latest/css/theme.css" type="text/css" />
 
-  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="../../css/highlight.css">
 
@@ -104,6 +103,11 @@
                 </li>
             
                 <li class="toctree-l2 ">
+                    <a class="" href="../../build/widgets/">Widgets</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
                     <a class="" href="../../build/shortcodes/">Shortcode List</a>
                     
                 </li>
@@ -129,6 +133,11 @@
                     
                 </li>
             
+                <li class="toctree-l2 ">
+                    <a class="" href="../../configuration/custom-fields/">Custom Fields</a>
+                    
+                </li>
+            
         
 
     
@@ -139,6 +148,9 @@
                     <a class="current" href="./">Configuration</a>
                     
                         <ul>
+                        
+                            <li class="toctree-l3"><a href="#social-login-in-registration-login-forms">Social Login in Registration  Login Forms</a></li>
+                            
                         
                         </ul>
                     
@@ -173,21 +185,30 @@
 
     
         
-            <span>Advanced</span>
-            
-                <li class="toctree-l2 ">
-                    <a class="" href="../../advanced/custom-fields/">Custom Fields</a>
-                    
-                </li>
-            
-        
-
-    
-        
             <span>Extras</span>
             
                 <li class="toctree-l2 ">
                     <a class="" href="../../extras/recaptcha/">reCAPTCHA</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
+                    <a class="" href="../../extras/email-login/">Log in With Email</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
+                    <a class="" href="../../extras/global-admin-password/">Global Administrator Password</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
+                    <a class="" href="../../extras/user-moderation/">User Moderation</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
+                    <a class="" href="../../extras/passwordless-login/">Passwordless Login</a>
                     
                 </li>
             
@@ -238,8 +259,52 @@
 <li><a href="../google/">Creating Google+ Application</a></li>
 <li><a href="../github/">Creating GitHub Applications</a></li>
 </ul>
-<p><strong>Note:</strong> The generated application credentials will go into appropriate form field in <code>Social Login</code> settings page and subsequently saved.</p>
+<p><strong>Note:</strong> The generated application credentials should go into appropriate form fields in <code>Social Login</code> settings page and then saved.</p>
 <p><img alt="ProfilePress social login settings page" src="../img/social-app-credentials.png" /></p>
+<h2 id="social-login-in-registration-login-forms">Social Login in Registration &amp; Login Forms</h2>
+<p>ProfilePress ships with social login buttons for Facebook, Twitter, LinkedIn, Google and GitHub.</p>
+<p>Below are the shortcodes for the social login buttons where <code>size</code> is the font size of the button text.</p>
+<p>Note: the <code>size</code> attribute is optional with a default value of 13(px).</p>
+<p><img alt="ProfilePress social login settings page" src="../img/pp-social-login-buttons.png" /></p>
+<ul>
+<li><strong>Facebook</strong></li>
+</ul>
+<pre><code>[social-button type=&quot;facebook&quot; size=&quot;13&quot;]Sign in with Facebook[/social-button]
+</code></pre>
+
+<ul>
+<li><strong>Twitter</strong></li>
+</ul>
+<pre><code>[social-button type=&quot;twitter&quot; size=&quot;13&quot;]Sign in with Twitter[/social-button]
+</code></pre>
+
+<ul>
+<li><strong>LinkedIn</strong></li>
+</ul>
+<pre><code>[social-button type=&quot;linkedin&quot; size=&quot;13&quot;]Sign in with LinkedIn[/social-button]
+</code></pre>
+
+<ul>
+<li><strong>Google</strong></li>
+</ul>
+<pre><code>[social-button type=&quot;google&quot; size=&quot;13&quot;]Sign in with Google[/social-button]
+</code></pre>
+
+<ul>
+<li><strong>GitHub</strong></li>
+</ul>
+<pre><code>[social-button type=&quot;github&quot; size=&quot;13&quot;]Sign in with Github[/social-button]
+</code></pre>
+
+<p>To add the buttons to a <a href="../../build/login-form/">login</a> and <a href="../../build/registration-form/">registration form</a> form created by ProfilePress, copy and pasted any of the button shortcode(s) to a desired location in the form.</p>
+<p>ProfilePress also include the following shortcodes that returns the social login URL for the supported social networks incase you want to build your own buttons or customized links.</p>
+<ul>
+<li><strong>[facebook-login-url]</strong> URL to login with Facebook.</li>
+<li><strong>[twitter-login-url]</strong>  URL to login with Twitter.</li>
+<li><strong>[linkedin-login-url]</strong>  URL to login with LinkedIn.</li>
+<li><strong>[google-login-url]</strong>  URL to login with Google.</li>
+<li><strong>[github-login-url]</strong>  URL to login with GitHub.</li>
+</ul>
             </div>
           </div>
           <footer>
@@ -249,7 +314,7 @@
         <a href="../facebook/" class="btn btn-neutral float-right" title="Creating a Facebook Application"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../../configuration/password-reset/" class="btn btn-neutral" title="Password Reset"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../configuration/custom-fields/" class="btn btn-neutral" title="Custom Fields"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -289,14 +354,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../../configuration/password-reset/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span><a href="../../configuration/custom-fields/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       <span style="margin-left: 15px"><a href="../facebook/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-04-27 17:01:36.208829
+Docs Build Date : 2015-04-28 16:04:47.974451
 -->
 </body>
 </html>
