@@ -5,9 +5,10 @@ theme_dir: 'readthedocs'
 pages:
 - ['index.md', 'Index']
 - ['installation.md', 'Get Started', 'Installation']
+- ['uninstall.md', 'Get Started', 'Uninstall']
 - ['quickstart.md', 'Get Started', 'Quick Start']
 - ['shortcode-doc.md', 'Get Started', 'Shortcodes Doc']
-- ['uninstall.md', 'Get Started', 'Uninstall']
+- ['install-theme.md', 'Get Started', 'Theme Installation']
 - ['build/login-form.md', 'Building', 'Login Form']
 - ['build/registration-form.md', 'Building', 'Registration Form']
 - ['build/password-reset.md', 'Building', 'Password Reset Form']
@@ -30,4 +31,4 @@ pages:
 - ['extras/email-login.md', 'Extras', 'Log in With Email']
 - ['extras/global-admin-password.md', 'Extras', 'Global Administrator Password']
 - ['extras/user-moderation.md', 'Extras', 'User Moderation']
-- ['extras/passwordless-login.md', 'Extras', 'Passwordless Login']
+- ['advanced/theme-development.md', 'Advanced', 'Theme Development']
