@@ -80,6 +80,8 @@ Copy its shortcode, paste it to a WordPress page and publish.
 
 Preview the page to see the profile card.
 
+Be sure to [let ProfilePress know about the page containing this profile shortcode](../configuration/front-end-profile.md) if you wish to make it the default profile theme for your website users.
+
 
 A [live demo](http://profilepress.net/demos/memories-profile-theme/) is available [here](http://profilepress.net/demos/memories-profile-theme/).
 

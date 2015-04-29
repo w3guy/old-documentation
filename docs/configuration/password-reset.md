@@ -7,6 +7,7 @@ To customize the message:
 * Click the ProfilePress **Settings** menu.
 * Configure the email in **Password Reset Email Settings**.
 
+
 ![Password Reset Email Settings - ProfilePress](img/password-reset-msg.png)
 
 

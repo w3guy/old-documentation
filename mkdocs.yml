@@ -16,6 +16,7 @@ pages:
 - ['build/widgets.md', 'Building', 'Widgets']
 - ['build/shortcodes.md', 'Building', 'Shortcode List']
 - ['configuration/redirections.md', 'Configuration', 'Redirections']
+- ['configuration/front-end-profile.md', 'Configuration', 'Front-end Profile']
 - ['configuration/registration.md', 'Configuration', 'Registration Sugars']
 - ['configuration/password-reset.md', 'Configuration', 'Password Reset']
 - ['configuration/custom-fields.md', 'Configuration', 'Custom Fields']

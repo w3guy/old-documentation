@@ -1,7 +1,7 @@
 ProfilePress is bundled with a social login feature whereby users can log in to their existing account or create an account using their social media accounts.  
 
 
-Currently, only Facebook, Twitter, LinkedIn, Google and GitHub is supported. More coming soon.
+Currently, only Facebook, Twitter, LinkedIn, Google and GitHub are supported. More coming soon.
 
 
 See the links below to learn how to create applications in the various supported social networks in order to get the required app credentials.
