@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Password Reset Form - ProfilePress WordPress Plugin</title>
+  <title>Theme Development - ProfilePress WordPress Plugin</title>
   
 
   <link rel="shortcut icon" href="../../favicon.ico">
@@ -83,41 +83,37 @@
             <span>Building</span>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../login-form/">Login Form</a>
+                    <a class="" href="../../build/login-form/">Login Form</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../registration-form/">Registration Form</a>
-                    
-                </li>
-            
-                <li class="toctree-l2 current">
-                    <a class="current" href="./">Password Reset Form</a>
-                    
-                        <ul>
-                        
-                        </ul>
+                    <a class="" href="../../build/registration-form/">Registration Form</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../edit-profile/">Edit Profile Form</a>
+                    <a class="" href="../../build/password-reset/">Password Reset Form</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../user-profile/">Front-end Profile</a>
+                    <a class="" href="../../build/edit-profile/">Edit Profile Form</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../widgets/">Widgets</a>
+                    <a class="" href="../../build/user-profile/">Front-end Profile</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../shortcodes/">Shortcode List</a>
+                    <a class="" href="../../build/widgets/">Widgets</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
+                    <a class="" href="../../build/shortcodes/">Shortcode List</a>
                     
                 </li>
             
@@ -220,8 +216,21 @@
         
             <span>Advanced</span>
             
-                <li class="toctree-l2 ">
-                    <a class="" href="../../advanced/theme-development/">Theme Development</a>
+                <li class="toctree-l2 current">
+                    <a class="current" href="./">Theme Development</a>
+                    
+                        <ul>
+                        
+                            <li class="toctree-l3"><a href="#terminology">Terminology</a></li>
+                            
+                        
+                            <li class="toctree-l3"><a href="#template-structure">Template Structure</a></li>
+                            
+                        
+                            <li class="toctree-l3"><a href="#including-images-external-css-and-javascript-libraries">Including Images, External CSS and JavaScript Libraries</a></li>
+                            
+                        
+                        </ul>
                     
                 </li>
             
@@ -250,10 +259,10 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
-        <li>Building &raquo;</li>
+        <li>Advanced &raquo;</li>
       
     
-    <li>Password Reset Form</li>
+    <li>Theme Development</li>
       <li class="wy-breadcrumbs-aside">
         
       </li>
@@ -262,52 +271,74 @@
 </div>
           <div role="main">
             <div class="section">
-              <p>Let's see how <a href="../profilepress.net/pricing/">ProfilePress</a> can turn the password-reset form below into a working WordPress form for resetting users passwords.</p>
-<p data-height="268" data-theme-id="14095" data-slug-hash="rVNWEm" data-default-tab="result" data-user="collizo4sky" class='codepen'>See the Pen <a href='http://codepen.io/collizo4sky/pen/rVNWEm/'>Memories Password Reset Form</a> by Agbonghama Collins (<a href='http://codepen.io/collizo4sky'>@collizo4sky</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+              <p>In this tutorial, we'll learn how to build ProfilePress themes for login, registration, password reset, edit profile form and front-end profile which can be installed in the <a href="../../install-theme/">theme installer</a> plugin page.</p>
+<p>When these themes are installed, they are automatically added to their respective catalog.</p>
+<h2 id="terminology">Terminology</h2>
+<p><strong>Templates:</strong> Themes for login, registration, password reset, edit profile and front-end profile are individually referred to as <em>templates</em>.<br />
+E.g.  "login templates" refers to a login form theme.</p>
+<p><strong>Theme Type:</strong> Login, registration, password reset, edit profile and front-end profile are individually referred to as <strong>Theme type</strong>.
+E.g. The sentence "The templates of login theme type" means ProfilePress login form themes.</p>
+<h2 id="template-structure">Template Structure</h2>
+<p>Below is the structure of ProfilePress theme folder.
+For it to be considered a theme, it must be archived in zip format eg <code>doyin-template.zip</code></p>
+<pre><code>login/
+|- assets/             # Images, JavaScript and other component folder
+|- name.txt            # Name or title of the login template
+|- structure.html      # Form structure / design
+|- stylesheet.css      # CSS stylesheet
 
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+|- registration/
+|- assets/             # Images, JavaScript and other component folder
+|- name.txt            # Name or title of the registration template
+|- structure.html      # Form structure / design
+|- stylesheet.css      # CSS stylesheet
+|- success.txt         # Message on successful user registration
 
-<p><br/></p>
-<p>Click the <strong>Password Reset</strong> menu.</p>
-<p>Click the <code>Add New</code> button.</p>
-<p>Enter a name for the password-reset form in <strong>Template Name</strong> field.  </p>
-<p>The HTML and CSS code for the password-reset form will go into the <strong>Password Reset Design</strong> and <strong>CSS Stylesheet</strong> textareas respectively.</p>
-<p><img alt="Memories password reset form" src="../img/memo-design.png" /></p>
-<p><img alt="CSS for Memories password reset form" src="../img/memo-reset-css.png" /></p>
-<p><strong>Note:</strong> Error messages generated by password reset forms powered by ProfilePress are wrapped in a <code>div</code> with class <code>&lt;div class="profilepress-reg-status"&gt;</code> thus the <code>.profilepress-reg-status</code> CSS class in the stylesheet.</p>
-<p>Click the <strong>Preview Design</strong> button to see how the form will look.</p>
-<p><img alt="Memories registration form" src="../img/memo-reset-preview.png" /></p>
-<p>In order for <strong>ProfilePress</strong> to make this a functional password reset form, the form components which in this case are the username / email text field and the submit button will have to be replaced by their ProfilePress <a href="http://profilepress.net/docs/shortcode-api/password-reset-form/">shortcode equivalents</a></p>
-<p>Below is the final revision of the Login form code.</p>
-<pre><code>&lt;div id=&quot;sc-password&quot;&gt;
-  &lt;h1&gt;Reset Password&lt;/h1&gt;
-  &lt;div class=&quot;sc-container&quot;&gt;
-    [user-login title=&quot;Username or Email&quot; placeholder=&quot;Username or Email&quot;]
-    [reset-submit value=&quot;Get New Password&quot;]
-  &lt;/div&gt;
-&lt;/div&gt;
+|- password-reset/
+|- assets/             # Images, JavaScript and other component folder
+|- name.txt            # Name or title of the password reset template
+|- structure.html      # Form structure / design
+|- stylesheet.css      # CSS stylesheet
+|- success.txt         # Message displayed on successful password reset
+
+|- edit-user-profile/
+|- assets/             # Images, JavaScript and other component folder
+|- name.txt            # Name or title of the template
+|- structure.html      # Form structure / design
+|- stylesheet.css      # CSS stylesheet
+|- success.txt         # Message displayed on successful editing a profile
+
+|- front-end-profile/
+|- assets/             # Images, JavaScript and other component folder
+|- name.txt            # Name or title of the template
+|- structure.html      # Profile design
+|- stylesheet.css      # CSS stylesheet
 </code></pre>
 
-<p>Replace the HTML form code earlier entered into the <strong>Password Reset Design</strong> textarea with the revised code above.</p>
-<p>Enter the notification text that will be displayed (after the reset request has been received for processing by WordPress internals) into the <strong>Message on successful registration</strong> field.</p>
-<p><img alt="Message on successful registration" src="../img/reset-success.png" /></p>
-<p>To make the password reset form available as a WordPress widget, tick the <strong>Make this a Widget</strong> check box.</p>
-<p><img alt="Creating WordPress login Widget" src="../img/reset-widget.png" /></p>
-<p>Save and then click the <code>Back to Catalog</code> button.</p>
-<p>Copy its shortcode, paste it to a WordPress page and publish.</p>
-<p><img alt="Registration form catalog" src="../img/password-reset-catalog.png" /></p>
-<p>Preview the page and you will see the registration form in action.</p>
-<p>A <a href="http://profilepress.net/demos/memories-password-reset/">live demo</a> of this password reset form is available <a href="http://profilepress.net/demos/memories-password-reset/">here</a>.</p>
+<p>One or more templates can be packaged together as a theme but only one template per theme type s allowed.</p>
+<p>For example, you can decide to package the following as a theme: login and registration templates; login and password reset templates; only a front end profile template or templates for each of the theme type but you can't package a theme that consist of two templates for a login form.</p>
+<p>All assets for the templates be it images, css stysheet, javascripts etc should go into the <code>assets</code> folder.</p>
+<h2 id="including-images-external-css-and-javascript-libraries">Including Images, External CSS and JavaScript Libraries</h2>
+<p>To include images and external libraries to a ProfilePress template, place the files inside the <code>assets</code> folder and use the template tag <code>{{theme_assets}}</code> (a placeholder for the URL to the assets folder) to call or reference the files.</p>
+<p>Assuming you are creating a login template that utilizes <a href="http://getbootstrap.com">Bootstrap</a>. To include the bootstrap css file:</p>
+<p>Firstly, copy the <code>bootstrap.min.css</code> file to the <strong>assets</strong> folder of your theme package.</p>
+<p>To reference the CSS in the login form template, include the code below into the <code>structure.html</code> file. Mind you, <code>structure.html</code> is where the HTML code for the login form is inserted.</p>
+<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;{{theme_assets}}/bootstrap.min.css&quot;&gt;
+</code></pre>
+
+<p>To reference it in your CSS stylesheet, see the code below.</p>
+<pre><code>@import url( {{theme_assets}}/bootstrap.min.css );
+</code></pre>
+
+<p>Here is a <a href="../doyin-template.zip">sample theme file</a>. download, explore and install it to learn more.</p>
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../edit-profile/" class="btn btn-neutral float-right" title="Edit Profile Form"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../registration-form/" class="btn btn-neutral" title="Registration Form"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../extras/user-moderation/" class="btn btn-neutral" title="User Moderation"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -348,14 +379,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
-      <span><a href="../registration-form/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="../edit-profile/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../../extras/user-moderation/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-04-30 13:39:16.461256
+Docs Build Date : 2015-04-30 13:39:16.876535
 -->
 </body>
 </html>

@@ -76,10 +76,9 @@ Firstly, copy the `bootstrap.min.css` file to the **assets** folder of your them
 
 To reference the CSS in the login form template, include the code below into the `structure.html` file. Mind you, `structure.html` is where the HTML code for the login form is inserted.
 
-[html]
+```
 <link rel="stylesheet" href="{{theme_assets}}/bootstrap.min.css">
-[/html]
-
+```
 
 
 To reference it in your CSS stylesheet, see the code below.
