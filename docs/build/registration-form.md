@@ -1,4 +1,4 @@
-Let's see how [ProfilePress](profilepress.net/pricing/) can turn the registration form below into a working WordPress form for registering users.
+Let's see how [ProfilePress](http://profilepress.net/pricing/) can turn the registration form below into a working WordPress form for registering users.
 
 
 <p data-height="268" data-theme-id="14095" data-slug-hash="zGYxZQ" data-default-tab="result" data-user="collizo4sky" class='codepen'>See the Pen <a href='http://codepen.io/collizo4sky/pen/zGYxZQ/'>Login Form</a> by Agbonghama Collins (<a href='http://codepen.io/collizo4sky'>@collizo4sky</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

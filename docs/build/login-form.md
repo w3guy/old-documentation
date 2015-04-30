@@ -61,7 +61,7 @@ Below is the final revision of the Login form code.
 Replace the HTML form code earlier entered into the **Login Design** textarea with the code above.
 
 
-To make the login form available as a [WordPress widget](http://codex.wordpress.org/WordPress_Widgets" target="_blank">WordPress widget) that can be drag and drop into a widgetized area / sidebar, check the **Make this a Widget** check box.
+To make the login form available as a [WordPress widget](http://codex.wordpress.org/WordPress_Widgets) that can be drag and drop into a widgetized area / sidebar, check the **Make this a Widget** check box.
 
 
 ![Creating WordPress login Widget](http://profilepress.net/wp-content/uploads/2015/01/create-login-form-widget.png)

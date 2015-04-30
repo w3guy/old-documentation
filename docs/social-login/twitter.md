@@ -1,5 +1,5 @@
 
-Log in to Twitter [developer center](ps://dev.twitter.com/) using your Twitter account and navigate to the [Application Management](https://apps.twitter.com/) console.
+Log in to Twitter [developer center](https://dev.twitter.com/) using your Twitter account and navigate to the [Application Management](https://apps.twitter.com/) console.
 
 
 Click on the **Create New App button** to initiate the Twitter application creation.

@@ -26,6 +26,6 @@ To redirect users to a custom page after they log in and log out, select the pag
 ![Login, logout and edit-profile redirect](img/user-redirection.png)
 
 
-If you've created a custom [edit profile page](../build/edit-profile) and want users to be redirected to the page when they click the `Your Profile` link in WordPress dashboard, check the activate checkbox of **Edit User Profile**.
+If you've created a custom [edit profile page](../build/edit-profile.md) and want users to be redirected to the page when they click the `Your Profile` link in WordPress dashboard, check the activate checkbox of **Edit User Profile**.
 
 ![WordPress default profile link](img/wp-default-profile.png)

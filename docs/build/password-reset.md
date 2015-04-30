@@ -1,4 +1,4 @@
-Let's see how [ProfilePress](profilepress.net/pricing/) can turn the password-reset form below into a working WordPress form for resetting users passwords.
+Let's see how [ProfilePress](http://profilepress.net/pricing/) can turn the password-reset form below into a working WordPress form for resetting users passwords.
 
 
 <p data-height="268" data-theme-id="14095" data-slug-hash="rVNWEm" data-default-tab="result" data-user="collizo4sky" class='codepen'>See the Pen <a href='http://codepen.io/collizo4sky/pen/rVNWEm/'>Memories Password Reset Form</a> by Agbonghama Collins (<a href='http://codepen.io/collizo4sky'>@collizo4sky</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
