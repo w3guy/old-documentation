@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://docs.profilepress.net/en/latest/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/installation/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/uninstall/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/quickstart/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/shortcode-doc/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/install-theme/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/build/login-form/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/build/registration-form/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/build/password-reset/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/build/edit-profile/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/build/user-profile/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/build/widgets/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/build/shortcodes/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/configuration/redirections/</loc>
+  <lastmod>2015-04-30T15:22:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/configuration/front-end-profile/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/configuration/registration/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/configuration/password-reset/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/configuration/custom-fields/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/social-login/configuration/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/social-login/facebook/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/social-login/twitter/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/social-login/linkedin/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/social-login/google/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/social-login/github/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/extras/recaptcha/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/extras/email-login/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/extras/global-admin-password/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/extras/user-moderation/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://docs.profilepress.net/en/latest/advanced/theme-development/</loc>
+  <lastmod>2015-04-30T15:22:54+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>
