@@ -1,4 +1,4 @@
-Installing ProfilePress login, registration, password reset, edit profile form and front-end profile themes is similar to that of WordPress theme.
+Installing ProfilePress login, registration, password reset, edit profile form and front-end profile themes are similar to that of WordPress.
 
 
 Click the **Install Theme** ProfilePress menu.
