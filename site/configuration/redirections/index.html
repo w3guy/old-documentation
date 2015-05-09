@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="f5tUjlFsAzH7dWLs_U2mdlivbrr_jgV4Gq7wClHDUJ8" />
+  <meta name="msvalidate.01" content="7B48716AFD70CAAEAD7307ACD63067E5" />
+  <meta name='yandex-verification' content='4a29556848d4c478' />
   
   <title>Redirections - ProfilePress WordPress Plugin</title>
   
@@ -13,8 +16,8 @@
 
   
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="http://docs.profilepress.net/en/latest/css/theme.css" type="text/css" />
-
+  
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="../../css/highlight.css">
 
@@ -129,6 +132,9 @@
                         <ul>
                         
                             <li class="toctree-l3"><a href="#user-redirections">User Redirections</a></li>
+                            
+                        
+                            <li class="toctree-l3"><a href="#custom-redirections">Custom Redirections</a></li>
                             
                         
                         </ul>
@@ -259,6 +265,10 @@
     <li>Redirections</li>
       <li class="wy-breadcrumbs-aside">
         
+          
+            <a href="https://github.com/ProfilePress/documentation/tree/master/docs" class="icon icon-github"> Edit on GitHub</a>
+          
+        
       </li>
   </ul>
   <hr/>
@@ -278,11 +288,24 @@
 <h2 id="user-redirections">User Redirections</h2>
 <p>To redirect users to a custom page after they log in and log out, select the pages in <code>Redirection</code> section and save.</p>
 <p><img alt="Login, logout and edit-profile redirect" src="../img/user-redirection.png" /></p>
-<p>If you've created a custom <a href="../../build/edit-profile">edit profile page</a> and want users to be redirected to the page when they click the <code>Your Profile</code> link in WordPress dashboard, check the activate checkbox of <strong>Edit User Profile</strong>.</p>
+<p>If you've created a custom <a href="../../build/edit-profile/">edit profile page</a> and want users to be redirected to the page when they click the <code>Your Profile</code> link in WordPress dashboard, check the activate checkbox of <strong>Edit User Profile</strong>.</p>
 <p><img alt="WordPress default profile link" src="../img/wp-default-profile.png" /></p>
+<h2 id="custom-redirections">Custom Redirections</h2>
+<p>Starting from version 1.1.0, custom redirect can now be set per login and registration shoortcodes via the <code>redirect</code> attribute.</p>
+<p>For example, a custom login page with the shortcode<br />
+<code>[profilepress-login id="2" redirect="http://xyz.com/welcome"]</code> will redirect users to the URL <strong>http://xyz.com/welcome</strong> after they are logged in.</p>
+<p>Similarly, a registration page with the shortcode<br />
+<code>[profilepress-registration redirect="http://xyz.com/welcome"]</code> will log users in and redirect them to the <strong>http://xyz.com/welcome</strong> after they successfully create an account.</p>
             </div>
           </div>
-          <footer>
+          
+<a href="http://profilepress.net/pricing/">
+ <div style="margin:15px auto;text-align:center;background-color: #ff6760; border: medium none;border-radius: 5px;color: #fff !important;padding: 10px !important;">
+      <strong>Buy ProfilePress Now</strong>
+ </div>
+</a>
+
+  <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
@@ -317,7 +340,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
   </div>
   <br/>
 
-  <div style="float:right">Proudly hosted by <a href="https://readthedocs.org" target="_blank">Read the Docs</a></div>.
+  <div style="float:left"><a href="http://profilepress.net/pricing/"><h2>Buy ProfilePress Now</h2></a></div> <div style="float:right">Proudly hosted by <a href="https://readthedocs.org" target="_blank">Read the Docs</a></div>.
 </footer>
 	  
         </div>
@@ -330,6 +353,8 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
         
+            <a href="https://github.com/ProfilePress/documentation/tree/master/docs" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+        
       <span><a href="../../build/shortcodes/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       <span style="margin-left: 15px"><a href="../front-end-profile/" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
@@ -337,7 +362,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-04-30 13:39:16.564327
+Docs Build Date : 2015-05-09 12:40:15.431472
 -->
 </body>
 </html>
