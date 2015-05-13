@@ -8,7 +8,7 @@
   <meta name="msvalidate.01" content="7B48716AFD70CAAEAD7307ACD63067E5" />
   <meta name='yandex-verification' content='4a29556848d4c478' />
   
-  <title>Creating a Google+ Application - ProfilePress WordPress Plugin</title>
+  <title>MailChimp - ProfilePress WordPress Plugin</title>
   
 
   <link rel="shortcut icon" href="../../favicon.ico">
@@ -159,36 +159,32 @@
             <span>Social Login</span>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../configuration/">Configuration</a>
+                    <a class="" href="../../social-login/configuration/">Configuration</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../facebook/">Creating a Facebook Application</a>
+                    <a class="" href="../../social-login/facebook/">Creating a Facebook Application</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../twitter/">Creating a Twitter Application</a>
+                    <a class="" href="../../social-login/twitter/">Creating a Twitter Application</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../linkedin/">Creating a LinkedIn Application</a>
-                    
-                </li>
-            
-                <li class="toctree-l2 current">
-                    <a class="current" href="./">Creating a Google+ Application</a>
-                    
-                        <ul>
-                        
-                        </ul>
+                    <a class="" href="../../social-login/linkedin/">Creating a LinkedIn Application</a>
                     
                 </li>
             
                 <li class="toctree-l2 ">
-                    <a class="" href="../github/">Creating a GitHub Application</a>
+                    <a class="" href="../../social-login/google/">Creating a Google+ Application</a>
+                    
+                </li>
+            
+                <li class="toctree-l2 ">
+                    <a class="" href="../../social-login/github/">Creating a GitHub Application</a>
                     
                 </li>
             
@@ -235,8 +231,12 @@
         
             <span>Extensions</span>
             
-                <li class="toctree-l2 ">
-                    <a class="" href="../../extensions/mailchimp/">MailChimp</a>
+                <li class="toctree-l2 current">
+                    <a class="current" href="./">MailChimp</a>
+                    
+                        <ul>
+                        
+                        </ul>
                     
                 </li>
             
@@ -265,10 +265,10 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
-        <li>Social Login &raquo;</li>
+        <li>Extensions &raquo;</li>
       
     
-    <li>Creating a Google+ Application</li>
+    <li>MailChimp</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -281,28 +281,7 @@
 </div>
           <div role="main">
             <div class="section">
-              <p>Log in to <a href="https://console.developers.google.com/project">Google Developers Console</a> using your Google's account, click on the <strong>Create Project</strong> button and fill the form to create a project.</p>
-<p><img alt="New Google Project or Application" src="../img/new-google-project.png" /></p>
-<p>Click the newly created project to go to its dashboard.</p>
-<p>Click the <strong>API</strong> sub-menu beneath <strong>APIs &amp; auth</strong> and the click <strong>Google+ API</strong> link in <strong>Social APIs</strong> section.</p>
-<p><img alt="Google's Social APIs" src="../img/google-social-apis.png" /></p>
-<p>Click the <code>Enable API</code> button to activate it.</p>
-<p><img alt="Google's Social APIs" src="../img/enable-googleplus-api.png" /></p>
-<p>To get the <code>Client ID</code> and <code>Client Secret</code> keys, click the <code>Credentials</code> navigation link beneath  <strong>APIs &amp; auth</strong>,</p>
-<p>Click the <code>Create new Client ID</code> button and a popup page will be displayed.<br />
-On the popup, click the <code>Configure consent screen</code></p>
-<p><img alt="Google's Social APIs" src="../img/create-google-project-id.png" /></p>
-<p>Fill out the consent screen form and save.</p>
-<p><img alt="Google's Social APIs" src="../img/consent-screen-form.png" /></p>
-<p>At the client ID form, enter your website URL in the <strong>Authorized JavaScript origins</strong> field and the code below into the <strong>Authorized redirect URIs</strong></p>
-<pre><code>http://yoursite.com/wp-content/plugins/profilepress/social-login/?hauth.done=Google
-</code></pre>
-
-<p>Change <code>http://yoursite.com</code> to your website URL.</p>
-<p><img alt="Google's Social APIs" src="../img/google-client-id-form.png" /></p>
-<p>Click the <code>Create Client ID</code> submit button. You will see the application credentials displayed as shown in the image below.</p>
-<p><img alt="Google's Social APIs" src="../img/google-app-credentials.png" /></p>
-<p>Copy and paste the <code>Client ID</code> and <code>Client secrete</code> to the appropriate field in <a href="../configuration/">Social Login</a> settings page.</p>
+              
             </div>
           </div>
           
@@ -316,10 +295,8 @@ On the popup, click the <code>Configure consent screen</code></p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../github/" class="btn btn-neutral float-right" title="Creating a GitHub Application"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../linkedin/" class="btn btn-neutral" title="Creating a LinkedIn Application"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../advanced/theme-development/" class="btn btn-neutral" title="Theme Development"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -362,14 +339,14 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         
             <a href="https://github.com/ProfilePress/documentation/tree/master/docs" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
         
-      <span><a href="../linkedin/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      <span style="margin-left: 15px"><a href="../github/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../../advanced/theme-development/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      <span style="margin-left: 15px"><a href="" style="color: #fcfcfc">Next &raquo;</a></span>
     </span>
 </div>
 
 <!--
 MkDocs version  : 0.12.2
-Docs Build Date : 2015-05-13 14:40:00.701931
+Docs Build Date : 2015-05-13 14:40:00.846027
 -->
 </body>
 </html>

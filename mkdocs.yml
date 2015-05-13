@@ -35,3 +35,4 @@ pages:
 - ['extras/global-admin-password.md', 'Extras', 'Global Administrator Password']
 - ['extras/user-moderation.md', 'Extras', 'User Moderation']
 - ['advanced/theme-development.md', 'Advanced', 'Theme Development']
+- ['extensions/mailchimp.md', 'Extensions', 'MailChimp']
