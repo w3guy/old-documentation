@@ -16,10 +16,20 @@ Select the list you want users to be subscribed to and save the changes.
 ![Plugin settings page](img/mc-settings-page.png)
 
 
+To give users the option to decide whether to opt in or not to your list, add the shortcode `[pp-mailchimp]` to your custom [registration form](../build/registration-form.md).
+
+
+The shortcode displays a checkbox alongside the label **Subscribe to our email list.** The label can be changed by entering your desired text into the `Checkbox Label` text field.
+
+
+**Note:** If the MailChimp checkbox isn't present in the registration form but the feature is still activated, new users will still be added to the list.
+
+
+## Manual Inclusion
 One feature I love (and am pretty sure you will too) about this extension is the fact you can mass subscribe a list of emails to your list from within the settings page.
 
 
-Taking the user details below as an example.
+Using the user details below as an example:
 
 ```
 trisha@gmail.com, Trisha, Rice
@@ -32,7 +42,7 @@ geremi@yahoo.com, Geremi, Njitap
 **Note:** only one user data per line.
 
 
-If the data above is pasted into the **Manual Inclusion** textarea and the `Subscribe` button clicked, the selected email list will automatically be updated.
+If the data above is pasted into the **Manual Inclusion** text area and the `Subscribe` button clicked, the selected email list will automatically be updated.
 
 
 ![MailChimp list updated](img/mc-list-update.png)
