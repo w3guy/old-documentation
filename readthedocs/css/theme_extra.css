@@ -93,3 +93,28 @@ code.cs, code.c {
   padding: 0.5em;
   color: #333;
 }
+
+
+.buy-now-red {
+  margin:15px auto;
+  text-align:center;
+  background-color: #ff6760;
+  border: medium none;
+  border-radius: 5px;
+  color: #fff !important;
+  padding: 10px !important;
+}
+
+a strong {
+  color:#fff !important;
+}
+
+.buy-now-green {
+  margin:15px auto;
+  text-align:center;
+  background-color: #007200;
+  border: medium none;
+  border-radius: 5px;
+  color: #fff !important;
+  padding: 10px !important;
+}

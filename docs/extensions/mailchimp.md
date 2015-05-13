@@ -51,3 +51,12 @@ If the data above is pasted into the **Manual Inclusion** text area and the `Sub
 
 
 The process is ajaxified hence no page reload.
+
+
+
+
+<a href="http://profilepress.net/downloads/mailchimp/?ref=mailchimp_doc">
+ <div class="buy-now-green">
+      <strong>Buy MailChimp Extension</strong>
+ </div>
+</a>
