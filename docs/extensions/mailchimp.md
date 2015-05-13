@@ -22,11 +22,13 @@ To give users the option to decide whether to opt in or not to your list, add th
 The shortcode displays a checkbox alongside the label **Subscribe to our email list.** The label can be changed by entering your desired text into the `Checkbox Label` text field.
 
 
+![Plugin settings page](img/mc-demo.png)
+
 **Note:** If the MailChimp checkbox isn't present in the registration form but the feature is still activated, new users will still be added to the list.
 
 
 ## Manual Inclusion
-One feature I love (and am pretty sure you will too) about this extension is the fact you can mass subscribe a list of emails to your list from within the settings page.
+One feature I love (and am pretty sure you will too) about this extension is the fact you can subscribe a list of emails en masse to your list from within the settings page.
 
 
 Using the user details below as an example:
