@@ -1,4 +1,5 @@
 site_name: ProfilePress WordPress Plugin
+site_url: http://docs.profilepress.net
 site_description: Documentation for ProfilePress plugin - The ultimate plugin for creating user account forms such as login, registration, password reset, front-end edit profile forms as well as front-end user profile for WordPress
 site_favicon: favicon.ico
 theme_dir: 'readthedocs'
