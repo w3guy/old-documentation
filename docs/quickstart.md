@@ -12,7 +12,7 @@ After saving the license key, click the `Activate License` button.
 ![Enter license key](img/activate-license.png)
 
 
-If license is valid, you will see a notice to that effect.
+If the license key is valid, you will see a notice to that effect.
 
 ![Enter license key](img/active-license.png)
 
