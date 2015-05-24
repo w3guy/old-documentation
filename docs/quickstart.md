@@ -1,7 +1,7 @@
 Firstly, ensure you've [installed and activated](installation.md) [ProfilePress plugin](http://profilepress.net/pricing/).
 
 
-ProfilePress is quick and easy to set up. No tearing out of hair, we promise.
+ProfilePress is quick and easy to set up. No tearing out of hair, that's a promise.
 
 
 To get ProfilePress up-and-running; click the `License` plugin menu, enter your license key (that was mailed to you) to the `License Key` field and hit the `Save Changes` button.
