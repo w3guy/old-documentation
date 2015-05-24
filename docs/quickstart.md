@@ -1,4 +1,4 @@
-Firstly, ensure you've [installed and activated](installation.md) [ProfilePress plugin](http://profilepress.net/pricing/) before reading this guide.
+Firstly, ensure you've [installed and activated](installation.md) [ProfilePress plugin](http://profilepress.net/pricing/).
 
 
 ProfilePress is quick and easy to set up. No tearing out of hair, we promise.
