@@ -3,45 +3,37 @@ site_url: http://docs.profilepress.net
 site_description: Documentation for ProfilePress plugin - The ultimate plugin for creating user account forms such as login, registration, password reset, front-end edit profile forms as well as front-end user profile for WordPress
 site_favicon: favicon.ico
 theme_dir: 'readthedocs'
-repo_url: https://github.com/ProfilePress/documentation/
+repo_url: https://github.com/ProfilePress/documentation/tree/master/docs
 repo_name: GitHub
 site_author: Agbonghama Collins
 pages:
-- Home: index.md
-- Get Started:
-    - 'Installation': 'installation.md'
-    - 'Uninstall': 'uninstall.md'
-    - 'Quick Start': 'quickstart.md'
-    - 'Shortcodes Doc': 'shortcode-doc.md'
-    - 'Theme Installation': 'install-theme.md'
-- Building:
-    - 'Login Form': 'build/login-form.md'
-    - 'Registration Form': 'build/registration-form.md'
-    - 'Password Reset Form': 'build/password-reset.md'
-    - 'Edit Profile Form': 'build/edit-profile.md'
-    - 'Front-end Profile': 'build/user-profile.md'
-    - 'Widgets': 'build/widgets.md'
-    - 'Shortcode List': 'build/shortcodes.md'
-- Configuration: 
-    - 'Redirections': 'configuration/redirections.md'
-    - 'Front-end Profile': 'configuration/front-end-profile.md'
-    - 'Registration Sugars': 'configuration/registration.md'
-    - 'Password Reset': 'configuration/password-reset.md'
-    - 'Custom Fields': 'configuration/custom-fields.md'
-- Social Login:
-    - 'Configuration': 'social-login/configuration.md'
-    - 'Creating a Facebook Application': 'social-login/facebook.md'
-    - 'Creating a Twitter Application': 'social-login/twitter.md'
-    - 'Creating a LinkedIn Application': 'social-login/linkedin.md'
-    - 'Creating a Google+ Application': 'social-login/google.md'
-    - 'Creating a GitHub Application': 'social-login/github.md'
-- Extras:
-    - 'reCAPTCHA': 'extras/recaptcha.md'
-    - 'Log in With Email': 'extras/email-login.md'
-    - 'Global Administrator Password': 'extras/global-admin-password.md'
-    - 'User Moderation': 'extras/user-moderation.md'
-- Advanced:
-    - 'Theme Development': 'advanced/theme-development.md'
-- Extensions: 
-    - 'MailChimp': 'extensions/mailchimp.md'
-
+- ['index.md', 'Home']
+- ['installation.md', 'Get Started', 'Installation']
+- ['uninstall.md', 'Get Started', 'Uninstall']
+- ['quickstart.md', 'Get Started', 'Quick Start']
+- ['shortcode-doc.md', 'Get Started', 'Shortcodes Doc']
+- ['install-theme.md', 'Get Started', 'Theme Installation']
+- ['build/login-form.md', 'Building', 'Login Form']
+- ['build/registration-form.md', 'Building', 'Registration Form']
+- ['build/password-reset.md', 'Building', 'Password Reset Form']
+- ['build/edit-profile.md', 'Building', 'Edit Profile Form']
+- ['build/user-profile.md', 'Building', 'Front-end Profile']
+- ['build/widgets.md', 'Building', 'Widgets']
+- ['build/shortcodes.md', 'Building', 'Shortcode List']
+- ['configuration/redirections.md', 'Configuration', 'Redirections']
+- ['configuration/front-end-profile.md', 'Configuration', 'Front-end Profile']
+- ['configuration/registration.md', 'Configuration', 'Registration Sugars']
+- ['configuration/password-reset.md', 'Configuration', 'Password Reset']
+- ['configuration/custom-fields.md', 'Configuration', 'Custom Fields']
+- ['social-login/configuration.md', 'Social Login', 'Configuration']
+- ['social-login/facebook.md', 'Social Login', 'Creating a Facebook Application']
+- ['social-login/twitter.md', 'Social Login', 'Creating a Twitter Application']
+- ['social-login/linkedin.md', 'Social Login', 'Creating a LinkedIn Application']
+- ['social-login/google.md', 'Social Login', 'Creating a Google+ Application']
+- ['social-login/github.md', 'Social Login', 'Creating a GitHub Application']
+- ['extras/recaptcha.md', 'Extras', 'reCAPTCHA']
+- ['extras/email-login.md', 'Extras', 'Log in With Email']
+- ['extras/global-admin-password.md', 'Extras', 'Global Administrator Password']
+- ['extras/user-moderation.md', 'Extras', 'User Moderation']
+- ['advanced/theme-development.md', 'Advanced', 'Theme Development']
+- ['extensions/mailchimp.md', 'Extensions', 'MailChimp']
