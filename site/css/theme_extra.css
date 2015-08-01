@@ -149,3 +149,7 @@ a strong {
   color: #fff !important;
   padding: 10px !important;
 }
+
+.wy-menu-vertical li ul {
+  display: inline !important;
+}
