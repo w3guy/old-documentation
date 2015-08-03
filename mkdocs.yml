@@ -44,3 +44,4 @@ pages:
     - 'Theme Development': 'advanced/theme-development.md'
 - Extensions: 
     - 'MailChimp': 'extensions/mailchimp.md'
+    - 'Email Confirmation': 'extensions/email-confirmation.md'

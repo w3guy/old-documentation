@@ -153,3 +153,7 @@ a strong {
 .wy-menu-vertical li ul {
   display: inline !important;
 }
+
+content code {
+  white-space: pre !important;
+}
