@@ -1,4 +1,4 @@
-The [Email Confirmation](http://profilepress.net/downloads/email-confirmation/?ref=email_confirm_doc) ProfilePress extension ensure users confirm their registered email address before they are able to log in to WordPress.
+The [Email Confirmation](http://profilepress.net/downloads/email-confirmation/?ref=email_confirm_doc) ProfilePress extension ensures users confirm their registered email address before they are able to log in to WordPress.
 
 
 On creating or registering an account, the user will receive an email containing a link which when clicked, confirms their email address.
