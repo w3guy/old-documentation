@@ -60,6 +60,19 @@ Activate the feature by checking the **unconfirmed user deletion** checkbox and 
 
 ![Delete users who haven't confirmed their email addresses](img/unconfirmed-user-deletion.png)
 
+## Administrator Actions
+
+Administrator of a WordPress site that has ProfilePress and this extension activated can manually confirm a user as well as resend the confirmation email to them by hovering over the user's name in WordPress users admin page and clicking the appropriate action link.
+
+![WordPress user table](img/wp-user-table.png)
+
+
+## FAQ
+
+**Q:** Will previously registered users prior to the activation of this extension become unconfirmed or unverified?*
+
+**A:** No. they are automatically deemed *email confirmed* / *verified*.
+
 
 <a href="http://profilepress.net/downloads/email-confirmation/?ref=email_confirm_doc">
  <div class="buy-now-green">
