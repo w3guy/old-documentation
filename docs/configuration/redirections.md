@@ -14,6 +14,8 @@ They will be redirect to the page containing the custom login, registration and 
 
 To alter these pages settings, click the **Settings** ProfilePress menu and go to the `Global Settings` section.
 
+![Redirect WordPress login, registration, password reset page to custom page](http://d2hkd6cwxvu8h1.cloudfront.net/wp-content/uploads/2015/01/make-custom-pages-default.png)
+
 
 Let's see how to redirect users to a custom WordPress page after they log in and log out of your website.
 
