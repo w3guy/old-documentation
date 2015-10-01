@@ -40,6 +40,7 @@ pages:
     - 'Log in With Email': 'extras/email-login.md'
     - 'Global Administrator Password': 'extras/global-admin-password.md'
     - 'User Moderation': 'extras/user-moderation.md'
+    - 'One-time Passwordless Login': 'extras/passwordless-login.md'
 - Advanced:
     - 'Theme Development': 'advanced/theme-development.md'
 - Extensions: 
