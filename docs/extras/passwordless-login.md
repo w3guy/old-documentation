@@ -38,6 +38,7 @@ If the link is expired, an error message (customizable in ProfilePress settings)
 
 There are also options to customize the following:
 
+* Disable passwordless login for administrators.
 * Sender name and email address.
 * Mail subject.
 * Mail content.

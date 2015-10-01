@@ -53,6 +53,24 @@ If the data above is pasted into the **Manual Inclusion** text area and the `Sub
 The process is ajaxified hence no page reload.
 
 
+## WordPress to MailChimp Sync
+
+When activated, it watches for changes in WordPress user list and automatically synchronizes any detected changes with a selected MailChimp list.
+
+
+When users are registered they are subscribed to your MailChimp list. When a user is deleted, it will unsubscribe the user. When users update their email address, first name and last name, the changes are sync / updated in your MailChimp list.
+
+
+To activate the synchronization feature, check Activate Email Sync in the extension settings page.
+
+
+![Activate WordPress to MailChimp sync](http://d2hkd6cwxvu8h1.cloudfront.net/wp-content/uploads/2015/09/wordpress-mailchimp-sync.png)
+
+
+If you feel there are users that aren’t in your MailChimp list and you will want to add them, clicking the Sync Now button will do the magic.
+
+
+![Instantly sync WordPress users to MailChimp](http://d2hkd6cwxvu8h1.cloudfront.net/wp-content/uploads/2015/09/wordpress-mailchimp-sync-now.png)
 
 
 <a href="http://profilepress.net/downloads/mailchimp/?ref=mailchimp_doc">
