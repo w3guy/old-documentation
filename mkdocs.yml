@@ -20,9 +20,10 @@ pages:
     - 'Password Reset Form': 'build/password-reset.md'
     - 'Edit Profile Form': 'build/edit-profile.md'
     - 'Front-end Profile': 'build/user-profile.md'
+    - 'Melange': 'build/melange.md'
     - 'Widgets': 'build/widgets.md'
     - 'Shortcode List': 'build/shortcodes.md'
-- Configuration: 
+- Configuration:
     - 'Redirections': 'configuration/redirections.md'
     - 'Front-end Profile': 'configuration/front-end-profile.md'
     - 'Registration Sugars': 'configuration/registration.md'
@@ -45,6 +46,6 @@ pages:
     - 'One-time Passwordless Login': 'extras/passwordless-login.md'
 - Advanced:
     - 'Theme Development': 'advanced/theme-development.md'
-- Extensions: 
+- Extensions:
     - 'MailChimp': 'extensions/mailchimp.md'
     - 'Email Confirmation': 'extensions/email-confirmation.md'
