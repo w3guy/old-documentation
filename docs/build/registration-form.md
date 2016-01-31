@@ -65,7 +65,7 @@ The `[reg-cpf]` shortcode is used for adding custom fields to ProfilePress power
 <div class="hljs">
 <p>Custom fields are fields added to WordPress to extend its profile fields.</p>
 <p>By default, WordPress doesn't include the `Gender` and `Twitter profile` fields.
-<a href="configuration/custom-fields/">These fields and few other</a> are automatically added to WordPress when ProfilePress plugin is installed and activated.</p>
+[These fields and few other](../configuration/custom-fields.md) are automatically added to WordPress when ProfilePress plugin is installed and activated.</p>
 </div><br/>
 
 
