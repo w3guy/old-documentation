@@ -2,7 +2,7 @@ ProfilePress include a file upload features that allows users to upload files du
 
 Follow me as I walk us through the set up.
 
-## Creating File Uploader Custom Field
+## Creating File Upload Custom Field
 Say we want to allow registering users to upload their drivers license and résumé, it therefore means we'll be creating two file uploader [custom fields](custom-fields.md).
 
 To create the fields, click the `Custom Profile Fields` menu, then the `Add New` button.
@@ -92,3 +92,5 @@ Use the `[edit-profile-cpf]` shortcode to include the file upload field to the f
 
 [edit-profile-cpf key="pdf" type="resume"]
 ```
+
+![Edit profile form with file uploaders](img/edit-profile-file-upload.png)
