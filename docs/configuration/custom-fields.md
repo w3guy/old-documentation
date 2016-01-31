@@ -89,7 +89,7 @@ Below are the form fields and their description.
 * **Field Description:** Description of the field. This is the text that will be shown below the custom field.
 
 
-* **Type:** The form element to use as the form field. For now, only text field (`<input type="text">`), textarea, select dropdown and radio button are supported.
+* **Type:** The form element to use as the form field.
 
 
 * **Options:** Only for use when multiple Choices i.e Select Box and Radio Buttons is chosen as the field type.  

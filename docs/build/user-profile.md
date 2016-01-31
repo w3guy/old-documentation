@@ -8,7 +8,7 @@ In this tutorial, we'll learn how to build a WordPress front-end user profile (c
 Before we go into the tutorial proper, it is worth noting how the front-end user profile works.
 
 
-The URL to a user profile with username `demo` is accessible via `http://your site.com/profile/demo`.
+The URL to a user profile with username `demo` is accessible via `http://yoursite.com/profile/demo`.
 If users are logged in to the site, accessing `http://your site.com/profile/` will reveal their profile.
 
 

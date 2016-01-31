@@ -31,6 +31,7 @@ pages:
     - 'Custom Fields': 'configuration/custom-fields.md'
     - 'BuddyPress Integration': 'configuration/buddypress.md'
     - 'BbPress Integration': 'configuration/bbpress.md'
+    - 'File Uploads': 'configuration/file-uploads.md'
 - Social Login:
     - 'Configuration': 'social-login/configuration.md'
     - 'Creating a Facebook Application': 'social-login/facebook.md'
