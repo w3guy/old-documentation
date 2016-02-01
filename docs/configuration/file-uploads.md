@@ -1,4 +1,4 @@
-ProfilePress include a file upload features that allows users to upload files during registration, display the files on their [front-end profile](../build/user-profile.md) and ability for them as well as site administrators to edit the uploaded files in  ProfilePress powered edit profile form and default WordPress profile page.
+ProfilePress include a file upload features that allows users to upload files during registration, display the files on their [front-end profile](../build/user-profile.md) and ability for them as well as site administrators to edit the uploaded files in ProfilePress powered edit profile form and default WordPress profile page.
 
 Follow me as I walk us through the set up.
 
@@ -9,7 +9,7 @@ To create the fields, click the `Custom Profile Fields` menu, then the `Add New`
 
 Fill out the form as shown in the screenshots below. The form is pretty self-explanatory.
 
-![Driver's license uploader custom field definition](img/driver-license-uploader.png)
+![Driver's license file upload custom field definition](img/driver-license-uploader.png)
 
 ![Résumé uploader custom field definition](img/resume-uploader.png)
 
@@ -64,7 +64,7 @@ Say a user used the registration form above and uploaded their driver's license 
 [profile-file key="resume"]
 ```
 
-What if you just want the URL of the files. This can come in handy when the uploaded file is an image and you would want to display the image with rather than link to it.
+What if you just want the URL of the files? This can come in handy when the uploaded file is an image and you would want to display the image with rather than link to it.
 
 The above can be achieved with the `[profile-file]` shortcode like so:
 
@@ -81,7 +81,7 @@ As administrator, you can edit (override) a user uploaded file via the WordPress
 
 
 
-Users can also edit their uploads in WordPress default profile page as well as ProfilePress powered [edit profile forms](../build/edit-profile.md)
+Users can also edit their upload in WordPress default profile page as well as ProfilePress powered [edit profile forms](../build/edit-profile.md)
 
 
 Use the `[edit-profile-cpf]` shortcode to include the file upload field to the front-end edit profile form like so:
@@ -93,4 +93,4 @@ Use the `[edit-profile-cpf]` shortcode to include the file upload field to the f
 [edit-profile-cpf key="pdf" type="resume"]
 ```
 
-![Edit profile form with file uploaders](img/edit-profile-file-upload.png)
+![Edit profile form with file uploads](img/edit-profile-file-upload.png)
