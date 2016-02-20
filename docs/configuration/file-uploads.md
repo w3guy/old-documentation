@@ -11,7 +11,7 @@ Fill out the form as shown in the screenshots below. The form is pretty self-exp
 
 ![Driver's license file upload custom field definition](img/driver-license-uploader.png)
 
-![Résumé uploader custom field definition](img/resume-uploader.png)
+![Résumé file upload custom field definition](img/resume-uploader.png)
 
 
 ## Adding File Upload Fields to Registration Form
