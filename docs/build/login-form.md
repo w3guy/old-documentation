@@ -1,4 +1,4 @@
-Say you want create or build a custom WordPress login page with the below codepen login design. Continue reading to see how easy it is to do with **ProfilePress** plugin.
+Say you want create or build a WordPress custom login form page with the below codepen login design. Continue reading to see how easy it is to do with **ProfilePress** plugin.
 
 
 <p data-height="362" data-theme-id="0" data-slug-hash="raXWJG" data-default-tab="result" data-user="collizo4sky" class='codepen'>See the Pen <a href='http://codepen.io/collizo4sky/pen/raXWJG/'>Login Form</a> by Agbonghama Collins (<a href='http://codepen.io/collizo4sky'>@collizo4sky</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

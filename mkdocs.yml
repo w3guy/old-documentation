@@ -15,9 +15,9 @@ pages:
     - 'Shortcodes Doc': 'shortcode-doc.md'
     - 'Theme Installation': 'install-theme.md'
 - Building:
-    - 'Login Form': 'build/login-form.md'
-    - 'Registration Form': 'build/registration-form.md'
-    - 'Password Reset Form': 'build/password-reset.md'
+    - 'Custom Login Form': 'build/login-form.md'
+    - 'Custom Registration Form': 'build/registration-form.md'
+    - 'Custom Password Reset Form': 'build/password-reset.md'
     - 'Edit Profile Form': 'build/edit-profile.md'
     - 'Front-end Profile': 'build/user-profile.md'
     - 'Melange': 'build/melange.md'

@@ -1,4 +1,4 @@
-After building a [custom front-end user profile](../build/user-profile.md), inserted the generated shortcode into a published page, we still need to inform ProfilePress about the page that contains the profile shortcode so it knows what page to use in rendering the front-end profile.
+After building a WordPress [custom front-end user profile](../build/user-profile.md), inserted the generated shortcode into a published page, we still need to inform ProfilePress about the page that contains the profile shortcode so it knows what page to use in rendering the front-end profile.
 
 
 If this isn't done, users profile won't be accessible via the url `http://yoursite.com/profile/username` where *http://yoursite.com* is your website username and *username* is a user's username.
