@@ -24,4 +24,4 @@ You will see the application's `Client ID` and `Client Secret` displayed.
 ![GitHub application credentials](img/github-app-credentials.png)
 
 
-Copy and paste the `Client ID` and `Client secrete` to the appropriate field in [Social Login](configuration.md) settings page.
+Copy and paste the `Client ID` and `Client secret` to the appropriate fields in [Social Login](configuration.md) settings page.

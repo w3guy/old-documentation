@@ -39,6 +39,7 @@ pages:
     - 'Creating a LinkedIn Application': 'social-login/linkedin.md'
     - 'Creating a Google+ Application': 'social-login/google.md'
     - 'Creating a GitHub Application': 'social-login/github.md'
+    - 'Creating a VK.com Application': 'social-login/vk.md'
 - Extras:
     - 'reCAPTCHA': 'extras/recaptcha.md'
     - 'Log in With Email': 'extras/email-login.md'
