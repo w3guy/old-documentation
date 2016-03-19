@@ -81,4 +81,4 @@ ProfilePress also include the following shortcodes that returns the social login
 * **[linkedin-login-url]**  URL to login with LinkedIn.
 * **[google-login-url]**  URL to login with Google.
 * **[github-login-url]**  URL to login with GitHub.
-* **[vk-login-url]**  URL to login with GitHub.
+* **[vk-login-url]**  URL to login with VK.com (VKontakte).
