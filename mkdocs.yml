@@ -51,3 +51,4 @@ pages:
 - Extensions:
     - 'MailChimp': 'extensions/mailchimp.md'
     - 'Email Confirmation': 'extensions/email-confirmation.md'
+    - 'Join BuddyPress Groups': 'extensions/join-buddypress-groups.md'
