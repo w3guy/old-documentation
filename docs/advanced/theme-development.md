@@ -89,4 +89,4 @@ To reference it in your CSS stylesheet, see the code below.
 ```
 
 
-Here is a [sample theme file](doyin-template.zip). download, explore and install it to learn more.
+Here is a [sample theme file](../doyin-template.zip). download, explore and install it to learn more.
