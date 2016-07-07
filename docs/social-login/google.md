@@ -10,8 +10,7 @@ Click the newly created project to go to its dashboard.
 Click the **API** sub-menu beneath **APIs & auth** and the click **Google+ API** link in **Social APIs** section.
 
 
-![Google's Social APIs](img/google-social-apis.png
-)
+![Google's Social APIs](img/google-social-apis.png)
 
 
 Click the `Enable API` button to activate it.

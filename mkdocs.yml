@@ -25,6 +25,7 @@ pages:
     - 'Shortcode List': 'build/shortcodes.md'
 - Configuration:
     - 'Redirections': 'configuration/redirections.md'
+    - 'Ajax Mode': 'configuration/ajax-mode.md'
     - 'Front-end Profile': 'configuration/front-end-profile.md'
     - 'Registration Sugars': 'configuration/registration.md'
     - 'Password Reset': 'configuration/password-reset.md'

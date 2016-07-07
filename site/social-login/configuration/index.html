@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="f5tUjlFsAzH7dWLs_U2mdlivbrr_jgV4Gq7wClHDUJ8" />
   
-  <title>Configuration - ProfilePress WordPress Plugin</title>
+  <title>Configuration - Documentation - ProfilePress WordPress Plugin</title>
   
 
   <link rel="shortcut icon" href="../../favicon.ico">
@@ -40,7 +41,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="../.." class="icon icon-home"> ProfilePress WordPress Plugin</a>
+        <a href="../.." class="icon icon-home"> Documentation - ProfilePress WordPress Plugin</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -108,21 +109,21 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../build/login-form/">Login Form</a>
+        <a class="" href="../../build/login-form/">Custom Login Form</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../build/registration-form/">Registration Form</a>
+        <a class="" href="../../build/registration-form/">Custom Registration Form</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../build/password-reset/">Password Reset Form</a>
+        <a class="" href="../../build/password-reset/">Custom Password Reset Form</a>
         
     </li>
 
@@ -137,6 +138,13 @@
             
     <li class="toctree-l1 ">
         <a class="" href="../../build/user-profile/">Front-end Profile</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../build/melange/">Melange</a>
         
     </li>
 
@@ -198,6 +206,27 @@
     </li>
 
         
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../configuration/buddypress/">BuddyPress Integration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../configuration/bbpress/">BbPress Integration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../configuration/file-uploads/">File Uploads</a>
+        
+    </li>
+
+        
     </ul>
 <li>
           
@@ -255,6 +284,13 @@
     </li>
 
         
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../vk/">Creating a VK.com Application</a>
+        
+    </li>
+
+        
     </ul>
 <li>
           
@@ -291,6 +327,13 @@
     </li>
 
         
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../extras/passwordless-login/">One-time Passwordless Login</a>
+        
+    </li>
+
+        
     </ul>
 <li>
           
@@ -323,7 +366,21 @@
         
             
     <li class="toctree-l1 ">
+        <a class="" href="../../extensions/campaignmonitor/">Campaign Monitor</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
         <a class="" href="../../extensions/email-confirmation/">Email Confirmation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../extensions/join-buddypress-groups/">Join BuddyPress Groups</a>
         
     </li>
 
@@ -341,7 +398,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../..">ProfilePress WordPress Plugin</a>
+        <a href="../..">Documentation - ProfilePress WordPress Plugin</a>
       </nav>
 
       
@@ -372,7 +429,7 @@
             <div class="section">
               
                 <p>ProfilePress is bundled with a social login feature whereby users can log in to their existing account or create an account using their social media accounts.  </p>
-<p>Currently, only Facebook, Twitter, LinkedIn, Google and GitHub are supported. More coming soon.</p>
+<p>Currently, only Facebook, Twitter, LinkedIn, Google GitHub and VK.com () are supported. More coming soon.</p>
 <p>See the links below to learn how to create applications in the various supported social networks in order to get the required app credentials.</p>
 <ul>
 <li><a href="../facebook/">Creating Facebook Applications</a></li>
@@ -380,6 +437,7 @@
 <li><a href="../linkedin/">Creating LinkedIn Applications</a></li>
 <li><a href="../google/">Creating Google+ Application</a></li>
 <li><a href="../github/">Creating GitHub Applications</a></li>
+<li><a href="../vk/">Creating VK.com Applications</a></li>
 </ul>
 <p><strong>Note:</strong> The generated application credentials should go into appropriate form fields in <code>Social Login</code> settings page and then saved.</p>
 <p><img alt="ProfilePress social login settings page" src="../img/social-app-credentials.png" /></p>
@@ -418,6 +476,12 @@
 <pre><code>[social-button type=&quot;github&quot; size=&quot;13&quot;]Sign in with Github[/social-button]
 </code></pre>
 
+<ul>
+<li><strong>VK.com</strong></li>
+</ul>
+<pre><code>[social-button type=&quot;vk&quot; size=&quot;13&quot;]Sign in with VK[/social-button]
+</code></pre>
+
 <p>To add the buttons to a <a href="../../build/login-form/">login</a> and <a href="../../build/registration-form/">registration form</a> form created by ProfilePress, copy and pasted any of the button shortcode(s) to a desired location in the form.</p>
 <p>ProfilePress also include the following shortcodes that returns the social login URL for the supported social networks incase you want to build your own buttons or customized links.</p>
 <ul>
@@ -426,6 +490,7 @@
 <li><strong>[linkedin-login-url]</strong>  URL to login with LinkedIn.</li>
 <li><strong>[google-login-url]</strong>  URL to login with Google.</li>
 <li><strong>[github-login-url]</strong>  URL to login with GitHub.</li>
+<li><strong>[vk-login-url]</strong>  URL to login with VK.com (VKontakte).</li>
 </ul>
               
             </div>
@@ -444,7 +509,7 @@
         <a href="../facebook/" class="btn btn-neutral float-right" title="Creating a Facebook Application"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../../configuration/custom-fields/" class="btn btn-neutral" title="Custom Fields"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../configuration/file-uploads/" class="btn btn-neutral" title="File Uploads"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -488,7 +553,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
           <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../../configuration/custom-fields/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../../configuration/file-uploads/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
         <span style="margin-left: 15px"><a href="../facebook/" style="color: #fcfcfc">Next &raquo;</a></span>
