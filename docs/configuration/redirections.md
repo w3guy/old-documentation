@@ -39,5 +39,22 @@ For example, a custom login page with the shortcode
 `[profilepress-login id="2" redirect="http://xyz.com/welcome"]` will redirect users to the URL **http://xyz.com/welcome** after they are logged in.
 
 
-Similarly, a registration page with the shortcode  
-`[profilepress-registration redirect="http://xyz.com/welcome"]` will log users in and redirect them to the **http://xyz.com/welcome** after they successfully create an account.
+Similarly, a registration page with the shortcode `[profilepress-registration redirect="http://xyz.com/welcome"]` will log users in and redirect them to the **http://xyz.com/welcome** after they successfully create an account.
+
+
+How about if you wish to redirect unregistered or non-logged in users to your website login page when they try to access a post or page; simply insert the shortcode `[pp-redirect-non-logged-in-users]` to the said post or page.
+
+
+if you want them redirected to a custom URL, use the shortcode as like so:
+
+`[pp-redirect-non-logged-in-users url="htp://yourwebsite.com/custom-url-slug"]`
+
+
+To redirect only logged in users to a custom url, use the shortcode `pp-redirect-logged-in-users` like so:
+
+
+`[pp-redirect-logged-in-users url="htp://yourwebsite.com/custom-url-slug"]`
+
+
+Remember, if the user isn’t logged in, no redirection will occur. And omitting the `url` attribute will cause the user to be redirected to the login page.
+
