@@ -73,7 +73,7 @@ If you feel there are users that aren’t in your MailChimp list and you will wa
 ![Instantly sync WordPress users to MailChimp](https://profilepress-523b.kxcdn.com/wp-content/uploads/2015/09/wordpress-mailchimp-sync-now.png)
 
 
-<a href="http://profilepress.net/downloads/mailchimp/?ref=mailchimp_doc">
+<a href="https://profilepress.net/downloads/mailchimp/?ref=mailchimp_doc">
  <div class="buy-now-green">
       <strong>Buy MailChimp Extension</strong>
  </div>

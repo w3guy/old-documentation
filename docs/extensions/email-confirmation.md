@@ -74,7 +74,7 @@ Administrator of a WordPress site that has ProfilePress and this extension activ
 **A:** No. they are automatically deemed *email confirmed* / *verified*.
 
 
-<a href="http://profilepress.net/downloads/email-confirmation/?ref=email_confirm_doc">
+<a href="https://profilepress.net/downloads/email-confirmation/?ref=email_confirm_doc">
  <div class="buy-now-green">
       <strong>Buy Email Confirmation Extension</strong>
  </div>

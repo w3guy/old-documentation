@@ -41,7 +41,7 @@ To limit the number of groups users can select to join via select dropdown, add 
 `[pp-buddypress-groups type="select" limit="3"]`
 
 <div>
-<a href="http://profilepress.net/downloads/join-buddypress-groups/?ref=buddypress-group-doc">
+<a href="https://profilepress.net/downloads/join-buddypress-groups/?ref=buddypress-group-doc">
  <div class="buy-now-green">
       <strong>Buy BuddyPress Groups Extension</strong>
  </div>

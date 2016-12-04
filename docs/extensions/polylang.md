@@ -1,4 +1,5 @@
 The [Polylang](http://profilepress.net/downloads/polylang) extension integrates ProfilePress with Polylang WordPress plugin thereby allowing your website to have multilingual login, registration, password reset, edit profile forms as well as front-end profile display.
+The [Polylang](http://profilepress.net/downloads/polylang) extension integrates ProfilePress with Polylang WordPress plugin thereby allowing your website to have multilingual login, registration, password reset, edit profile forms as well as front-end profile display.
 
 To get this working, ensure you have the [extension](http://profilepress.net/downloads/polylang/) together with [ProfilePress premium](http://profilepress.net/pricing/) installed and activated.
 
@@ -23,7 +24,7 @@ The above procedure is also applicable in building multilingual registration, pa
 
 All ProfilePress form pages links are automatically updated to point to visitors / user’s language of choice pages.
 
-<a href="http://profilepress.net/downloads/polylang/?ref=polylang_doc">
+<a href="https://profilepress.net/downloads/polylang/?ref=polylang_doc">
  <div class="buy-now-green">
       <strong>Buy Polylang Extension</strong>
  </div>

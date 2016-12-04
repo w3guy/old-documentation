@@ -26,7 +26,7 @@ The shortcode displays a checkbox alongside the label **Subscribe to our email l
 
 **Note:** If the Campaign Monitor checkbox isn't present in the registration form but the feature is still activated, new users will still be added to the list.
 
-<a href="http://profilepress.net/downloads/campaignmonitor/?ref=campaignmonitor_doc">
+<a href="https://profilepress.net/downloads/campaignmonitor/?ref=campaignmonitor_doc">
  <div class="buy-now-green">
       <strong>Buy Campaign Monitor Extension</strong>
  </div>
