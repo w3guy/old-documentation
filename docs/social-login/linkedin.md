@@ -18,11 +18,14 @@ Enter your email and phone number in the **Contact Info** fields.
 
 Tick the following checkbox in **OAuth User Agreement**: r_emailaddress, r_basicprofile, and r_contactinfo.
 
+**Note:** the new LinkedIn application interface has no option for `r_contactinfo`. It's nothing to worry about.
 
 ![LinkedIn OAuth Agreement](img/oauth-agreement.png)
 
 
 Enter your website url in the `OAuth 2.0` and `OAuth 1.0a Redirect URLs` fields.
+
+**Note:** in the new LinkedIn application interface, use the following as your *OAuth 2.0* and *OAuth 1.0a* Redirect URLs `http://yoursite.com/wp-content/plugins/profilepress/social-login/?hauth.done=LinkedIn`
 
 
 ![LinkedIn OAuth Agreement](img/oauth-redirects.png)
