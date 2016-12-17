@@ -23,3 +23,10 @@ The notification message is fully customizable at ProfilePress **Settings** plug
 
 
 ![Account Status Notifications](img/customize-moderation-notification.png)
+
+
+## Admin Notifications
+
+To get notified when a user is pending approval; still on **User Moderation** section, scroll to **Admin Notification When a New User Is Pending Approval** sub-section and customize the email notification as you deem fit.
+
+![Admin Notification When a New User Is Pending Approval](img/admin-notification-pending-approval.png)
