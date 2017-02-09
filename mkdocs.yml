@@ -57,3 +57,4 @@ pages:
     - 'Polylang': 'extensions/polylang.md'
     - 'WordPress & BuddyPress Profile Sync': 'extensions/wordpress-buddypress-extended-profile-sync.md'
     - 'Multisite Integration': 'extensions/multisite.md'
+    - 'WooCommerce Integration': 'extensions/woocommerce.md'
