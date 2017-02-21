@@ -9,7 +9,7 @@ Using the form design below, let's build a custom edit-profile form page for Wor
 Click the **Front-end Edit Profile** menu.
 
 
-Click the `Add New` button at the top right corner of the page.
+Click the `Add New` button at the top left corner of the page.
 
 
 Enter a name for the edit-profile form in **Template Name** field.
