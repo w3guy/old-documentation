@@ -87,7 +87,7 @@ Save and then click the `Back to Catalog` button.
 Copy its shortcode, paste it to a WordPress page and publish.
 
 
-![Registration form catalog](img/edprofile-catalog.png)
+![Edit profile form catalog](img/edprofile-catalog.png)
 
 
 Preview the page and you will see the registration form in action.
@@ -97,3 +97,5 @@ A [live demo](http://profilepress.net/demos/memories-edit-profile/) is available
 
 
 **Note:** To gain access to the form, you'll have to log in to the site. Use `demo` as the username and password.
+
+We also have building a custom edit profile form for WordPress [covered here](https://profilepress.net/frontend-edit-profile-form-wordpress/)
