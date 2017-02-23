@@ -97,4 +97,6 @@ Copy the created registration form shortcode, paste it to a WordPress page and p
 Preview the page and you will see the registration form in action.
 
 
-A [live demo](http://profilepress.net/demos/memories-registration-form/) of this registration form is available [here](http://profilepress.net/demos/memories-registration-form/).
+A [live demo](http://profilepress.net/demos/memories-registration-form/) of this registration form is available [here](https://profilepress.net/demos/memories-registration-form/).
+
+We also have building a custom user registration form for WordPress [covered here](https://profilepress.net/custom-user-registration-form-wordpress/)
