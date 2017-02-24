@@ -80,3 +80,5 @@ Preview the page and you will see the login form in action.
 
 
 A [live demo](http://profilepress.net/demos/memories-login-form/) of this login form is available [here](http://profilepress.net/demos/memories-login-form/).
+
+We also have building a custom login form for WordPress [covered here](https://profilepress.net/custom-login-page-wordpress/)
