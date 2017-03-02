@@ -40,6 +40,7 @@ For example, a custom login page with the shortcode
 
 
 Similarly, a registration page with the shortcode `[profilepress-registration redirect="http://xyz.com/welcome"]` will log users in and redirect them to the **http://xyz.com/welcome** after they successfully create an account.
+If you don't want users to be logged in before the redirect happens, change "redirect" to "no-login-redirect" like so <code>[profilepress-registration no-login-redirect="http://xyz.com/welcome"]</code>
 
 
 How about if you wish to redirect unregistered or non-logged in users to your website login page when they try to access a post or page; simply insert the shortcode `[pp-redirect-non-logged-in-users]` to the said post or page.
