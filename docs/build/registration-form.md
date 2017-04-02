@@ -1,4 +1,4 @@
-Let's see how [ProfilePress](http://profilepress.net/pricing/) can turn the registration form below into a WordPress custom registration form for registering users.
+[ProfilePress](https://profilepress.net/pricing/) is the best user registration form plugin for WordPress. Let's see how it can turn the registration form below into a WordPress custom registration form.
 
 
 <p data-height="268" data-theme-id="14095" data-slug-hash="zGYxZQ" data-default-tab="result" data-user="collizo4sky" class='codepen'>See the Pen <a href='http://codepen.io/collizo4sky/pen/zGYxZQ/'>Registration Form</a> by Agbonghama Collins (<a href='http://codepen.io/collizo4sky'>@collizo4sky</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -30,8 +30,6 @@ Click the **Preview Design** button to see how the registration form will look.
 
 
 ![Memories registration form](img/memo-registration-form-preview.png)
-
-
 
 
 In order for **ProfilePress** to make this a functional WordPress registration form, the form components which in this case are the username, email, password, first & last name, Twitter profile text field; gender select drop-down and the submit button will have to be replaced by their ProfilePress [shortcode equivalents](http://profilepress.net/docs/shortcode-api/registration-form/)

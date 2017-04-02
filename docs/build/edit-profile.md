@@ -1,4 +1,6 @@
-Using the form design below, let's build a custom edit-profile form page for WordPress where users can edit their profile information at the front-end of your website without having to do so in their WordPress dashboard.
+[ProfilePress](http://profilepress.net/pricing/) is the best plugin for creating frontend edit profile form for WordPress.
+
+Using the form design below, let's build a custom frontend edit profile page for WordPress where users can edit their profile information at the front-end of your website without having to do so in WordPress dashboard or backend.
 
 
 <p data-height="268" data-theme-id="14095" data-slug-hash="WvNpzy" data-default-tab="result" data-user="collizo4sky" class='codepen'>See the Pen <a href='http://codepen.io/collizo4sky/pen/WvNpzy/'>Memories Edit Profile Form</a> by Agbonghama Collins (<a href='http://codepen.io/collizo4sky'>@collizo4sky</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
