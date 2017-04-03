@@ -1,4 +1,4 @@
-[ProfilePress](http://profilepress.net/pricing/) include a user moderation module for approving newly registered users, blocking and unblocking users account.
+[ProfilePress](http://profilepress.net/pricing/) include a user moderation module for approving new registered users, blocking and unblocking users account in WordPress.
 
 
 To activate this feature, click the **Extras** ProfilePress menu and activate it in **User Moderation** section.

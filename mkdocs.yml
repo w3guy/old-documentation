@@ -5,7 +5,7 @@ site_favicon: favicon.ico
 theme_dir: 'readthedocs'
 repo_url: https://github.com/ProfilePress/documentation/
 repo_name: GitHub
-site_author: Agbonghama Collins
+site_author: Collins Agbonghama
 pages:
 - Home: index.md
 - Get Started:
@@ -29,7 +29,7 @@ pages:
     - 'Ajax Mode': 'configuration/ajax-mode.md'
     - 'Front-end Profile': 'configuration/front-end-profile.md'
     - 'Registration Sugars': 'configuration/registration.md'
-    - 'Password Reset': 'configuration/password-reset.md'
+    - 'WordPress Password Reset': 'configuration/password-reset.md'
     - 'Custom Fields': 'configuration/custom-fields.md'
     - 'BuddyPress Integration': 'configuration/buddypress.md'
     - 'BbPress Integration': 'configuration/bbpress.md'
@@ -44,16 +44,16 @@ pages:
     - 'Creating a VK.com Application': 'social-login/vk.md'
 - Extras:
     - 'reCAPTCHA': 'extras/recaptcha.md'
-    - 'Log in With Email': 'extras/email-login.md'
+    - 'WordPress Log in With Email': 'extras/email-login.md'
     - 'Global Administrator Password': 'extras/global-admin-password.md'
-    - 'User Moderation': 'extras/user-moderation.md'
+    - 'WordPress User Moderation': 'extras/user-moderation.md'
     - 'One-time Passwordless Login': 'extras/passwordless-login.md'
 - Advanced:
     - 'Theme Development': 'advanced/theme-development.md'
 - Extensions:
     - 'MailChimp': 'extensions/mailchimp.md'
     - 'Campaign Monitor': 'extensions/campaignmonitor.md'
-    - 'Email Confirmation': 'extensions/email-confirmation.md'
+    - 'WordPress Email Confirmation': 'extensions/email-confirmation.md'
     - 'Join BuddyPress Groups': 'extensions/join-buddypress-groups.md'
     - 'Polylang': 'extensions/polylang.md'
     - 'WordPress & BuddyPress Profile Sync': 'extensions/wordpress-buddypress-extended-profile-sync.md'

@@ -1,12 +1,12 @@
-The [Email Confirmation](http://profilepress.net/downloads/email-confirmation/?ref=email_confirm_doc) ProfilePress extension ensures users confirm their registered email addresses before they are able to log in to WordPress.
+The [Email Confirmation](https://profilepress.net/downloads/email-confirmation/?ref=email_confirm_doc) extension ensures new registered users confirm / verify their email addresses before they can log in to WordPress.
 
 
-On creating or registering an account, the user will receive an email containing a link which when clicked, confirms their email address.
+After creating or registering an account, the user will receive an email containing a link which when clicked, confirms their email address.
 
 
 ![Email confirmation content](img/email-confirmation-content.png)
 
-To get this feature working in your WordPress powered site, ensure you have the [extension](http://profilepress.net/downloads/mailchimp/) together with [ProfilePress premium](http://profilepress.net/pricing/) installed and activated.
+To get this feature working in your WordPress powered site, ensure you have the [extension](https://profilepress.net/downloads/mailchimp/) together with [ProfilePress premium](https://profilepress.net/pricing/) installed and activated.
 
 
 Click the **Extras** ProfilePress menu link.
