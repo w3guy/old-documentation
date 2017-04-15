@@ -1,4 +1,4 @@
-The [MailChimp](http://profilepress.net/downloads/mailchimp/) ProfilePress extension integrates your ProfilePress powered [registration page](../build/registration-form.md) with MailChimp by automatically subscribing users to a specific list immediately they complete registering an account.
+The [MailChimp for WordPress](https://profilepress.net/downloads/mailchimp/) extension automatically subscribe users to a specific email list immediately they complete registering an account via a ProfilePress powered [registration form](../build/registration-form.md) page
 
 
 To get this feature working on your WordPress powered site, ensure you have the [extension](http://profilepress.net/downloads/mailchimp/) installed and activated.
@@ -75,6 +75,6 @@ If you feel there are users that aren’t in your MailChimp list and you will wa
 
 <a href="https://profilepress.net/downloads/mailchimp/?ref=mailchimp_doc">
  <div class="buy-now-green">
-      <strong>Buy MailChimp Extension</strong>
+      <strong>Get MailChimp Extension</strong>
  </div>
 </a>

@@ -1,7 +1,7 @@
-The [Campaign Monitor](http://profilepress.net/downloads/campaignmonitor/) extension integrates your ProfilePress powered [registration page](../build/registration-form.md) with Campaign Monitor by automatically subscribing users to a specific list immediately they complete registering an account.
+The [Campaign Monitor](http://profilepress.net/downloads/campaignmonitor/) for WordPress extension automatically subscribe new users who registered via a ProfilePress powered [registration form](../build/registration-form.md) to to a specific email list immediately they complete creating an account.
 
 
-To get this feature working on your WordPress powered site, ensure you have the [extension](http://profilepress.net/downloads/campaignmonitor/) installed and activated.
+To get this feature working on your WordPress powered site, ensure you have the [extension](https://profilepress.net/downloads/campaignmonitor/) installed and activated.
 
 
 Click the **Extras** ProfilePress menu link.
@@ -28,6 +28,6 @@ The shortcode displays a checkbox alongside the label **Subscribe to our email l
 
 <a href="https://profilepress.net/downloads/campaignmonitor/?ref=campaignmonitor_doc">
  <div class="buy-now-green">
-      <strong>Buy Campaign Monitor Extension</strong>
+      <strong>Get Campaign Monitor Extension</strong>
  </div>
 </a>

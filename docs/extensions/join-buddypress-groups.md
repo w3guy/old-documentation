@@ -1,23 +1,23 @@
-The [Join BuddyPress Groups](http://profilepress.net/downloads/join-buddypress-groups/) extension allows users to select or choose the **BuddyPress groups** they will like to join at the time of [registration](http://profilepress.net/features/wordpress-front-end-registration-form/).
+The [Join BuddyPress Groups](http://profilepress.net/downloads/join-buddypress-groups/) extension allows users to select or choose the **BuddyPress groups** they will like to join at the time of [registration](https://profilepress.net/features/wordpress-front-end-registration-form/) in WordPress.
 
 Registering users are able to select the group to join in two forms.
 
 ## Select Dropdown
-![Select BuddyPress groups to join on registration](http://profilepress.net/wp-content/uploads/edd/2016/04/buddypress-group-select.png)
+![Select BuddyPress groups to join on registration](https://profilepress.net/wp-content/uploads/edd/2016/04/buddypress-group-select.png)
 
 
 ## Checkboxes</h3>
-![Checkbox selection of BuddyPress groups to join on registration](http://profilepress.net/wp-content/uploads/edd/2016/04/buddypress-group-checkbox.png)
+![Checkbox selection of BuddyPress groups to join on registration](https://profilepress.net/wp-content/uploads/edd/2016/04/buddypress-group-checkbox.png)
 
 ## Setup & Implementation
 
-On installation and activation of this [extension](http://profilepress.net/downloads/join-buddypress-groups/), go to **Extras** settings page.
+On installation and activation of this [extension](https://profilepress.net/downloads/join-buddypress-groups/), go to **Extras** settings page.
 
 Under **Join BuddyPress Groups** section, enter your purchase license key and check the "Activate" checkbox.
 
 ![Extension settings page](img/join-buddypress-group-settings.png)
 
-Having done all this, add the shortcode `[pp-buddypress-groups]` to your custom [registration form](../build/registration-form.md) to output a checkbox list of groups.
+Having done all this, add the shortcode `[pp-buddypress-groups]` to your [custom registration form](../build/registration-form.md) to output a checkbox list of groups.
 
 To output a select dropdown of groups, add a `type` attribute with a value of `select` like so:
 
@@ -43,7 +43,7 @@ To limit the number of groups users can select to join via select dropdown, add 
 <div>
 <a href="https://profilepress.net/downloads/join-buddypress-groups/?ref=buddypress-group-doc">
  <div class="buy-now-green">
-      <strong>Buy BuddyPress Groups Extension</strong>
+      <strong>Get BuddyPress Groups Extension</strong>
  </div>
 </a>
 </div>

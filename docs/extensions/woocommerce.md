@@ -1,4 +1,4 @@
-The [WooCommerce Integration](https://profilepress.net/downloads/woocommerce/) extension allows you to manage Shipping and Billing fields with ProfilePress, replace the default WooCommerce login form and edit account form displayed on checkout and “My Account” pages respectively with that of ProfilePress to name a few.
+Our [WooCommerce Integration](https://profilepress.net/downloads/woocommerce/) extension allows you to manage Shipping and Billing fields with ProfilePress, replace the default WooCommerce login form and *edit account form* displayed on checkout and “My Account” pages respectively with that of ProfilePress to name a few.
 
 
 To get this feature working on your WordPress powered site, ensure you have the [extension](https://profilepress.net/downloads/woocommerce/) installed and activated.
