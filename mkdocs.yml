@@ -58,6 +58,6 @@ pages:
     - 'Join BuddyPress Groups': 'extensions/join-buddypress-groups.md'
     - 'Polylang': 'extensions/polylang.md'
     - 'WordPress & BuddyPress Profile Sync': 'extensions/wordpress-buddypress-extended-profile-sync.md'
-    - 'Multisite Integration': 'extensions/multisite.md'
+    - 'WordPress Multisite Frontend Registration': 'extensions/multisite.md'
     - 'WooCommerce Integration': 'extensions/woocommerce.md'
     - 'Akismet Integration - Stop WordPress spam registration': 'extensions/akismet.md'
