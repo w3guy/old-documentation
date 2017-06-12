@@ -15,6 +15,7 @@ pages:
     - 'Shortcodes Doc': 'shortcode-doc.md'
     - 'Theme Installation': 'install-theme.md'
     - 'Upgrade Lite to Premimum': 'upgrade-lite-premium.md'
+    - 'Upgrading Premimum Plans': 'upgrade-premium-plans.md'
 - Building:
     - 'WordPress Custom Login Form': 'build/login-form.md'
     - 'WordPress Custom Registration Form': 'build/registration-form.md'
