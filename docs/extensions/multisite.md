@@ -45,6 +45,20 @@ Say your chosen registration form is the [memories theme](https://profilepress.n
 </div>
 ```
 
+If yours is a <strong>sub-domains type</strong> (a domain-based network in which on-demand sites use subdomains), move the site address label beneath the input field to reflect it. That is:
+
+```
+<label for="siteAddress">multisite.dev/</label>
+[reg-site-address id="siteAddress" placeholder="Site Address"]
+```
+
+Becomes
+
+```
+[reg-site-address id="siteAddress" placeholder="Site Address"]
+<label for="siteAddress">.multisite.dev</label>
+```
+
 And below is how the form will now look.
 
 ![Create new site in a Multisite Network via front-end registration form powered by ProfilePress](https://profilepress-523b.kxcdn.com/wp-content/uploads/edd/2016/12/create-new-site-network-multisite-1.png)
