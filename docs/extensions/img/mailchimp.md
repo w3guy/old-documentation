@@ -64,13 +64,13 @@ When users are registered they are subscribed to your MailChimp list. When a use
 To activate the synchronization feature, check Activate Email Sync in the extension settings page.
 
 
-![Activate WordPress to MailChimp sync](https://profilepress-523b.kxcdn.com/wp-content/uploads/2015/09/wordpress-mailchimp-sync.png)
+![Activate WordPress to MailChimp sync](https://d13njzr7tvlzz9.cloudfront.net/wp-content/uploads/2015/09/wordpress-mailchimp-sync.png)
 
 
 If you feel there are users that aren’t in your MailChimp list and you will want to add them, clicking the Sync Now button will do the magic.
 
 
-![Instantly sync WordPress users to MailChimp](https://profilepress-523b.kxcdn.com/wp-content/uploads/2015/09/wordpress-mailchimp-sync-now.png)
+![Instantly sync WordPress users to MailChimp](https://d13njzr7tvlzz9.cloudfront.net/wp-content/uploads/2015/09/wordpress-mailchimp-sync-now.png)
 
 
 <a href="http://profilepress.net/downloads/mailchimp/?ref=mailchimp_doc">

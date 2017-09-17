@@ -14,7 +14,7 @@ They will be redirect to the page containing the custom login, registration and 
 
 To alter these pages settings, click the **Settings** ProfilePress menu and go to the `Global Settings` section.
 
-![Redirect WordPress login, registration, password reset page to custom page](https://profilepress-523b.kxcdn.com/wp-content/uploads/2015/01/make-custom-pages-default.png)
+![Redirect WordPress login, registration, password reset page to custom page](https://d13njzr7tvlzz9.cloudfront.net/wp-content/uploads/2015/01/make-custom-pages-default.png)
 
 
 ## User Redirections

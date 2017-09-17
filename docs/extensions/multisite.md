@@ -61,7 +61,7 @@ Becomes
 
 And below is how the form will now look.
 
-![Create new site in a Multisite Network via front-end registration form powered by ProfilePress](https://profilepress-523b.kxcdn.com/wp-content/uploads/edd/2016/12/create-new-site-network-multisite-1.png)
+![Create new site in a Multisite Network via front-end registration form powered by ProfilePress](https://d13njzr7tvlzz9.cloudfront.net/wp-content/uploads/edd/2016/12/create-new-site-network-multisite-1.png)
 
 Note: you can use any input attribute in the above shortcodes such as "title", "class", "id" etc.
 
