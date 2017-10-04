@@ -50,6 +50,10 @@ The **Email Confirmation Resent** notice is displayed when an unconfirmed user a
 
 ![Email confirmation WordPress demo](img/wordpress-email-confirm-demo.gif)
 
+## Auto-login after Email Confirmation
+This extension can also automatically log in users immediately after they confirm or verify their email addresses.
+
+![Automatically log in users after verifying/confirming their account in WordPress](https://d13njzr7tvlzz9.cloudfront.net/wp-content/uploads/2015/11/autologin-after-email-confirmation-1024x114.png)
 
 ## Unconfirmed Users Deletion
 One feature I love (and am pretty sure you will too) about this extension is the fact that you can delete users from WordPress database who haven't confirmed or verified their email address after a period of time.
@@ -66,6 +70,20 @@ Administrator of a WordPress site that has ProfilePress and this extension activ
 
 ![WordPress user table](img/wp-user-table.png)
 
+## Bypassing Email Confirmation Check During Login.
+If for some odd reasons, you want users to still be able to login even when they are yet to confirm their email address; use the code snippet below.
+
+```
+add_filter('pp_bypass_check_if_user_is_activated', '__return_true');
+```
+
+If you will like to notify logged in users who haven't confirmed their email address to do so; use the shortcode `[pp-resend-email-confirmation]`. Place it wherever you want the notice displayed prefably at the sidebar of your site.
+
+The shortcode accept two attributes: `text` and `link`. The former to customize the notice text and the latter the anchor text or link label to resend the email confirmation. Like so
+
+```
+[pp-resend-email-confirmation text="Apparently you haven't confirmed your email address" link="Do that now!"]
+```
 
 ## FAQ
 
