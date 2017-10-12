@@ -89,7 +89,7 @@ If you don't wanna go through the stress of building a custom user profile for y
 
 ## Note
 
-You can display/embed a specific user profile anywhere on your site by adding a `user-id` attribute to the shortcode like so:
+You can display/embed a specific user profile anywhere on your WordPress site by adding a `user-id` attribute to the shortcode like so:
 
 ```
 [profilepress-user-profile id="9" user-id="3"]
