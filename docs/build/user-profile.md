@@ -43,7 +43,7 @@ Below is the final revision of the Login form code.
 
 ```
 <div class="sc-user-profile">
-  <img class="avatar" src="[user-avatar-url]" />
+  <img class="avatar" src="[profile-avatar-url]" />
   <div class="username">[profile-first-name] [profile-last-name ]</div>
   <div class="bio">
     [profile-cpf key="country"]
@@ -83,10 +83,27 @@ Preview the page to see the profile card.
 Be sure to [let ProfilePress know about the page containing this profile shortcode](../configuration/front-end-profile.md) if you wish to make it the default profile theme for your website users.
 
 
-A [live demo](http://profilepress.net/demos/memories-profile-theme/) is available [here](http://profilepress.net/demos/memories-profile-theme/).
+A [live demo](https://profilepress.net/demos/memories-profile-theme/) is available [here](https://profilepress.net/demos/memories-profile-theme/).
 
+If you don't wanna go through the stress of building a custom user profile for your site; happy to inform you that ProfilePress ships with some great looking [profile themes](https://profilepress.net/features/frontend-user-profile-wordpress-plugin/) and also well as [separate themes](https://profilepress.net/downloads/category/front-end-profile/).
 
-**Note:** You'll have to log in to see it. Use `demo` as the username and password.
+## Note
 
+You can display/embed a specific user profile anywhere on your site by adding a `user-id` attribute to the shortcode like so:
 
-After logging in, click this [link](http://profilepress.net/demos/memories-profile-theme/) again.
+```
+[profilepress-user-profile id="9" user-id="3"]
+```
+
+Where *"9"* is the ID of the user profile theme created and *"3"* the user assigned WordPress ID.
+
+You can get the ID of any user of your site by following the guide below.
+
+* Log into your WordPress admin
+* Go to Users > All users
+![](img/all-users.png);
+* Choose the user and go to his profile
+* Look at the URL of the page:
+![](img/user-id-in-profile-url.png);
+
+The `user_id` argument value in the url gives the actual user ID of that particular user, which is ‘101’ in the current case.
