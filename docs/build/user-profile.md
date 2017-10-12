@@ -99,11 +99,14 @@ Where *"9"* is the ID of the user profile theme created and *"3"* the user assig
 
 You can get the ID of any user of your site by following the guide below.
 
-* Log into your WordPress admin
-* Go to Users > All users
-![](img/all-users.png);
-* Choose the user and go to his profile
-* Look at the URL of the page:
-![](img/user-id-in-profile-url.png);
+* Log into your WordPress admin.
+* Go to Users > All users.   
+
+![](img/all-users.png)
+
+* Choose the user and go to his profile.
+* Look at the URL of the page:    
+
+![](img/user-id-in-profile-url.png)
 
 The `user_id` argument value in the url gives the actual user ID of that particular user, which is ‘101’ in the current case.
