@@ -20,6 +20,8 @@ Perform the security check and submit
 
 ![Facebook security check](img/fb-security-check.png)
 
+You will then see a screen with list of Facebook products. Hover your cursor to **Facebook Login** and click the "Set up" button.
+
 
 Now you have successfully created a Facebook Application and you should be redirected to the Application page which should look like the one on the image below.
 
@@ -35,7 +37,7 @@ To get the App Live, click on **Status & Review** sidebar menu, slide the switch
 ![Change Facebook application status to live](img/fb-app-live.png)
 
 
-Go back to the application settings, click the `Add Platform` button.
+Go back to the application **Settings >> Basic**, click the `Add Platform` button.
 
 
 ![Add platform to application](img/add-platform.png)
@@ -45,6 +47,12 @@ Select **Website** and enter your website URL in the corresponding form and save
 
 
 ![Facebook appplication website platform](img/fb-website-platform.png)
+
+Go to **Facebook Login >> Settings**
+
+Ensure "Client OAuth Login" and "Web OAuth Login" are enabled. In **Valid OAuth redirect URIs**, enter `https://yoursite.com/wp-content/plugins/profilepress/social-login/?hauth_done=Facebook`. Replace "https://yoursite.com" with your website URL.
+
+![Facebook client OAuth settings](img/facebook-app-oath-settings.png)
 
 
 Copy and save the `App ID` and `App Secrete` to the appropriate fields in ProfilePress [Social Login](configuration.md) settings page.
