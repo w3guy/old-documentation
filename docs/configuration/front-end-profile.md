@@ -11,6 +11,8 @@ See the succinct guide below on how to get it done.
 
 * Under **Front-end Profile Settings** section, select the page with the profile shortcode in *Page with User Profile Shortcode* and save.
 
+* To change the profile slug from "profile" to say "user", enter it to the **Profile Slug** text field.
+
 ![Front-end Profile Settings](img/front-end-profile-settings.png)
 
 
