@@ -97,4 +97,8 @@ Preview the page and you will see the registration form in action.
 
 A [live demo](http://profilepress.net/demos/memories-registration-form/) of this registration form is available [here](https://profilepress.net/demos/memories-registration-form/).
 
+Note: ProfilePress include a column in WordPress dashboard users page showing you the form the registered with.
+
+![](img/pp-user-signup-form-theme.png)
+
 We also have building a custom user registration form for WordPress [covered here](https://profilepress.net/custom-user-registration-form-wordpress/)
