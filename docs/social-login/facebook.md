@@ -31,7 +31,7 @@ Now you have successfully created a Facebook Application and you should be redir
 
 Currently, your application is in development or sandbox mode.
 
-To get the App Live, click on **Status & Review** sidebar menu, slide the switch close to the app name to `Yes` and finally, click the `Confirm` button.
+To get the App Live, click on **App Review** sidebar menu, slide the switch close to the app name to `Yes` and finally, click the `Confirm` button.
 
 
 ![Change Facebook application status to live](img/fb-app-live.png)

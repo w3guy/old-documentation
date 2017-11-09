@@ -22,6 +22,7 @@ pages:
     - 'WordPress Custom Registration Form': 'build/registration-form.md'
     - 'Custom Password Reset Form': 'build/password-reset.md'
     - 'Frontend Edit Profile Form': 'build/edit-profile.md'
+    - 'WordPress Password Strength Meter': 'build/password-strength-meter.md'
     - 'WordPress Front-end User Profile': 'build/user-profile.md'
     - 'Melange': 'build/melange.md'
     - 'Form Widgets': 'build/widgets.md'

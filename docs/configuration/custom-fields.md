@@ -1,4 +1,5 @@
 Although we are quite satisfied with the default profile fields in WordPress profile page; a need to add custom fields might arise in order to collect additional information from your website users.
+Although we are quite satisfied with the default profile fields in WordPress profile page; a need to add custom fields might arise in order to collect additional information from your website users.
 
 
 ## An Example

@@ -53,6 +53,13 @@ Below is the final revision of the Login form code.
 
 Replace the HTML form code earlier entered into the **Password Reset Design** textarea with the revised code above.
 
+Every password reset comes with a **handler form** which handles the actual changing of password. That is, when user click the link emailed to them, a form is displayed where they are required to enter their new password.
+
+![](https://d13njzr7tvlzz9.cloudfront.net/wp-content/uploads/2016/09/ajax-password-reset-handler-form.gif)
+
+You can customize the look of this form at the **Password Reset Handler Form** section.
+
+![](img/password-reset-handler-customize.png)
 
 Enter the notification text that will be displayed (after the reset request has been received for processing by WordPress internals) into the **Message on successful registration** field.
 
