@@ -25,7 +25,7 @@ Tick the following checkbox in **OAuth User Agreement**: r_emailaddress, r_basic
 
 Enter your website url in the `OAuth 2.0` and `OAuth 1.0a Redirect URLs` fields.
 
-**Note:** in the new LinkedIn application interface, use the following as your *OAuth 2.0* and *OAuth 1.0a* Redirect URLs `http://yoursite.com/wp-content/plugins/profilepress/social-login/?hauth.done=LinkedIn`
+**Note:** in the new LinkedIn application interface, use the following as your *OAuth 2.0* and *OAuth 1.0a* Redirect URLs `http://yoursite.com/wp-content/plugins/profilepress/social-login/?hauth.done=LinkedIn`. If your website url contains "www", don't forget to include it in the redirect URL.
 
 
 ![LinkedIn OAuth Agreement](img/oauth-redirects.png)

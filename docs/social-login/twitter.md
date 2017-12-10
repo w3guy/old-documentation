@@ -24,7 +24,7 @@ Below are the form fields and their description.
 
 
 **Callback URL:** `http://yoursite.com/wp-content/plugins/profilepress/social-login/?hauth.done=Twitter`.  
-Replace `http://yoursite.com` with your website URL.
+Replace `http://yoursite.com` with your website URL. If your website url contains "www", don't forget to include it in the Callback URL.
 
 
 Read and agree to the *Developer Agreement* and finally, click the create button.
