@@ -50,7 +50,7 @@ Select **Website** and enter your website URL in the corresponding form and save
 
 Go to **Facebook Login >> Settings**
 
-Ensure "Client OAuth Login" and "Web OAuth Login" are enabled. In **Valid OAuth redirect URIs**, enter `https://yoursite.com/wp-content/plugins/profilepress/social-login/?hauth_done=Facebook`. Replace "https://yoursite.com" with your website URL.
+Ensure "Client OAuth Login" and "Web OAuth Login" are enabled. In **Valid OAuth redirect URIs**, enter `https://yoursite.com/wp-content/plugins/profilepress/social-login/?hauth_done=Facebook`. Replace "https://yoursite.com" with your website URL. If your website url contains "www", don't forget to include it in the redirect URI settings like so `https://www.yoursite.com/wp-content/plugins/profilepress/social-login/?hauth_done=Facebook`
 
 ![Facebook client OAuth settings](img/facebook-app-oath-settings.png)
 
