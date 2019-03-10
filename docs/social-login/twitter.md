@@ -23,7 +23,7 @@ Below are the form fields and their description.
 **Website:** The full URL of your website. (prefixed with `http://` or `https://`)
 
 
-**Callback URL:** `http://yoursite.com/wp-content/plugins/profilepress/social-login/?hauth.done=Twitter`.  
+**Callback URL:** `http://yoursite.com/wp-content/plugins/profilepress/social-login/`.  
 Replace `http://yoursite.com` with your website URL. If your website url contains "www", don't forget to include it in the Callback URL.
 
 
