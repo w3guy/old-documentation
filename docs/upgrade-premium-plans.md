@@ -4,7 +4,7 @@ Follow the steps below.
 
 * [Login to your account](https://profilepress.net/login/) and click View Licenses
 
-![View purchase license](https://d13njzr7tvlzz9.cloudfront.net/wp-content/uploads/2017/01/view-purchase-license.png)
+![View purchase license](https://profilepress.net/wp-content/uploads/2017/01/view-purchase-license.png)
 
 
 * Click View Upgrades
