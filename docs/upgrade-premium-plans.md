@@ -9,7 +9,7 @@ Follow the steps below.
 
 * Click View Upgrades
 
-![Manage purchase license](https://d13njzr7tvlzz9.cloudfront.net/wp-content/uploads/2017/01/manage-purchase-license.png)
+![Manage purchase license](https://profilepress.net/wp-content/uploads/2017/01/manage-purchase-license.png)
 
 
 * In the next displayed page, click Upgrade License beside the license you wish to upgrade to and follow the checkout process.
