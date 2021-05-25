@@ -5,7 +5,7 @@ google_analytics: ['UA-62480573-1', 'docs.profilepress.net']
 repo_url: https://github.com/ProfilePress/documentation/
 repo_name: GitHub
 site_author: Collins Agbonghama
-pages:
+nav:
 - Home: index.md
 - Get Started:
     - 'Installation': 'installation.md'
