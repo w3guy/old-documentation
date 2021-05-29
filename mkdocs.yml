@@ -55,7 +55,6 @@ pages:
 - Extensions:
     - 'MailChimp': 'extensions/mailchimp.md'
     - 'Campaign Monitor': 'extensions/campaignmonitor.md'
-    - 'WordPress Email Confirmation': 'extensions/email-confirmation.md'
     - 'Join BuddyPress Groups': 'extensions/join-buddypress-groups.md'
     - 'Polylang': 'extensions/polylang.md'
     - 'WordPress & BuddyPress Profile Sync': 'extensions/wordpress-buddypress-extended-profile-sync.md'
